@@ -25,3 +25,8 @@ pnpm-debug.log*
 Thumbs.db
 .vscode
 .idea
+
+# AI Agent configuration & skills
+.agent
+.agents
+.ai
