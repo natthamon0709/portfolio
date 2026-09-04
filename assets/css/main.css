@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: #080c14;
+    color: #e2e8f0;
+    font-family: 'Space Grotesk', 'Kanit', sans-serif;
+    overflow-x: hidden;
+  }
+
+  /* Custom Sleek Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080c14;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1f2d4d;
+    border-radius: 4px;
+    border: 1px solid rgba(6, 182, 212, 0.2);
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #06b6d4;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background: rgba(15, 23, 42, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .glass-card-hover:hover {
+    border-color: rgba(6, 182, 212, 0.4);
+    box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.25);
+    transform: translateY(-2px);
+  }
+
+  .text-glow-cyan {
+    text-shadow: 0 0 16px rgba(6, 182, 212, 0.5);
+  }
+
+  .text-glow-purple {
+    text-shadow: 0 0 16px rgba(168, 85, 247, 0.5);
+  }
+
+  .cyber-grid {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  }
+}
+
+/* Modern Web Guidance: Top-layer animations with @starting-style */
+dialog[open] {
+  opacity: 1;
+  transform: scale(1);
+
+  @starting-style {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+}
+
+dialog {
+  opacity: 0;
+  transform: scale(0.95);
+  transition:
+    opacity 0.25s ease-out,
+    transform 0.25s ease-out,
+    display 0.25s ease-out allow-discrete,
+    overlay 0.25s ease-out allow-discrete;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+  transition:
+    display 0.25s allow-discrete,
+    overlay 0.25s allow-discrete,
+    background-color 0.25s ease-out;
+}
+
+dialog[open]::backdrop {
+  background-color: rgba(4, 7, 13, 0.85);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+
+  @starting-style {
+    background-color: rgba(0, 0, 0, 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  dialog {
+    transform: none;
+    transition-duration: 0.05s;
+  }
+  dialog[open] {
+    transform: none;
+  }
+}

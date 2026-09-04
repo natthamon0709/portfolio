@@ -1,0 +1,661 @@
+{
+  "profile": {
+    "name": {
+      "en": "Natthamon Kosem",
+      "th": "ณัฐมล กอเซ็ม"
+    },
+    "nickname": {
+      "en": "Nut",
+      "th": "นัท"
+    },
+    "avatar": "/images/nut-profile.jpg",
+    "role": {
+      "en": "Computer Engineer & Back-end Developer",
+      "th": "วิศวกรคอมพิวเตอร์ & นักพัฒนาแบ็กเอนด์"
+    },
+    "badge": {
+      "en": "Available for Tech Opportunities",
+      "th": "พร้อมรับข้อเสนองานด้านวิศวกรรมซอฟต์แวร์"
+    },
+    "contact": {
+      "email": "nutkosem@gmail.com",
+      "phone": "099-564-9387",
+      "location": {
+        "en": "Nonthaburi, Thailand",
+        "th": "นนทบุรี, ประเทศไทย"
+      },
+      "address": "109/36 Bangrukpatthana, Bang Bua Thong, Nonthaburi 11110",
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com"
+    },
+    "bio": {
+      "en": "Computer engineer with proven capability in designing resilient backend architectures, high-throughput RESTful APIs, scalable relational databases (MySQL & Oracle), and IoT telemetry pipelines. Combines technical rigor across all testing phases (performance, functional, integration, system, UAT) with automated CI/CD and cross-functional leadership.",
+      "th": "วิศวกรคอมพิวเตอร์ผู้มีศักยภาพรอบด้าน เชี่ยวชาญการออกแบบสถาปัตยกรรมแบ็กเอนด์ที่มีเสถียรภาพสูง, RESTful API รองรับการทำงานพร้อมกันปริมาณมาก, การบริหารจัดการฐานข้อมูลระดับองค์กร (MySQL & Oracle) และระบบ IoT แบบเรียลไทม์ มีมาตรฐานการทดสอบระบบที่ครอบคลุมทุกระดับ (Performance, Functional, Integration, System, UAT) พร้อมประสบการณ์ขับเคลื่อน CI/CD อัตโนมัติและภาวะผู้นำที่พิสูจน์แล้ว"
+    }
+  },
+  "stats": [
+    {
+      "value": "4+",
+      "label": {
+        "en": "Years Experience",
+        "th": "ปี ประสบการณ์สายงาน"
+      }
+    },
+    {
+      "value": "14+",
+      "label": {
+        "en": "Projects Delivered",
+        "th": "โปรเจกต์ที่ส่งมอบ"
+      }
+    },
+    {
+      "value": "3.27",
+      "label": {
+        "en": "Bachelor GPA (Eng)",
+        "th": "เกรดเฉลี่ย วศ.บ."
+      }
+    },
+    {
+      "value": "99.9%",
+      "label": {
+        "en": "API Reliability",
+        "th": "ความเสถียรของระบบ API"
+      }
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Rudy Technology",
+      "role": {
+        "en": "Back-end Developer",
+        "th": "Back-end Developer (สถาปัตยกรรมแบ็กเอนด์ & ฐานข้อมูล)"
+      },
+      "period": "2022 - Present",
+      "location": "Bangkok, Thailand",
+      "type": {
+        "en": "Full-time Engineering",
+        "th": "งานประจำ (วิศวกรรมระบบ)"
+      },
+      "color": "#06b6d4",
+      "highlights": {
+        "en": [
+          "Engineered high-throughput, mission-critical RESTful APIs serving thousands of concurrent web and mobile clients with sub-100ms latency",
+          "Architected complex relational database schemas in MySQL & Oracle, indexed query bottlenecks, and designed transactional stored procedures under strict MVC design patterns",
+          "Developed custom backend integration bridges connecting enterprise mobile CRM low-code applications with central database microservices",
+          "Owned and maintained end-to-end GitLab CI/CD pipelines, automating test execution, linting, Docker packaging, and zero-downtime server deployments",
+          "Authored industry-standard OpenAPI/Swagger specifications, establishing contract-first API development and comprehensive technical documentation for cross-functional teams",
+          "Conducted rigorous API security auditing, rate limiting, token authentication lifecycle, and maintained 99.9% API uptime in production environments"
+        ],
+        "th": [
+          "ออกแบบและพัฒนา RESTful API แกนกลางระดับ Mission-Critical รองรับการทำงานพร้อมกันของเว็บและโมบายล์แอปพลิเคชัน พร้อมคุม Latency ให้รวดเร็วต่ำกว่า 100ms",
+          "วิเคราะห์และวางโครงสร้างฐานข้อมูลองค์กร (MySQL & Oracle), เขียน Query ซับซ้อน, ทำ Indexing และ Stored Procedure ภายใต้สถาปัตยกรรม MVC ที่ถูกต้องตามหลักวิศวกรรม",
+          "พัฒนาระบบ Integration เชื่อมต่อระหว่าง Mobile CRM แอปพลิเคชัน Low-Code กับฐานข้อมูลและ Microservices ส่วนกลางได้อย่างไร้รอยต่อ",
+          "วางระบบและดูแล GitLab CI/CD Pipeline อัตโนมัติตั้งแต่การรัน Test, ตรวจสอบ Code Quality ไปจนถึงการ Deploy งานขึ้น Production Server อย่างราบรื่น",
+          "จัดทำเอกสารข้อกำหนดทางเทคนิค API Documentation และ OpenAPI/Swagger Specs เพื่อกำหนดมาตรฐานการทำงานร่วมกันระหว่างทีมฟรอนต์เอนด์และโมบายล์",
+          "ดูแลความปลอดภัยของระบบ API (Authentication, Rate-Limiting, Token Rotation) และรักษาเสถียรภาพระบบให้ทำงานได้ต่อเนื่อง 99.9% Uptime"
+        ]
+      },
+      "skills": ["Node.js", "PHP", "Laravel", "MySQL", "Oracle DB", "RESTful API", "GitLab CI/CD", "Postman", "MVC Architecture", "OpenAPI Spec"]
+    },
+    {
+      "company": "So-at Solution",
+      "period": "2021",
+      "role": {
+        "en": "Software Engineer Intern (Co-operative Training)",
+        "th": "วิศวกรซอฟต์แวร์ฝึกงาน (สหกิจศึกษา)"
+      },
+      "location": "Bangkok, Thailand",
+      "type": {
+        "en": "Co-operative Training",
+        "th": "สหกิจศึกษาดีเด่น"
+      },
+      "color": "#8b5cf6",
+      "highlights": {
+        "en": [
+          "Diagnosed and resolved critical web service incidents, identifying root causes across database locks and network timeouts to restore operational integrity",
+          "Implemented complex SQL functions, stored procedures, and backend controllers adhering to strict MVC web standards",
+          "Created exhaustive Postman test suites and collection runners to validate API contracts between staging and production environments",
+          "Collaborated closely with UX designers to translate complex data schemas into intuitive web interfaces for corporate users"
+        ],
+        "th": [
+          "วิเคราะห์และแก้ไขปัญหาเว็บเซอร์วิสวิกฤต (Web Service Incident Resolution) สืบหาต้นตอ Database Lock และ Timeout แก้ไขจนระบบกลับมาทำงานได้อย่างสมบูรณ์",
+          "เขียนฟังก์ชัน SQL ขั้นสูง, Stored Procedure และเขียน Controller ฝั่งแบ็กเอนด์ตามมาตรฐาน MVC ที่รองรับการขยายตัว",
+          "สร้างชุดทดสอบ Postman Collections อัตโนมัติ เพื่อตรวจสอบความถูกต้องของ API Contract และ Response ทั้งบน Staging และ Production Server",
+          "ร่วมมือกับทีมออกแบบเพื่อแปลงโครงสร้างข้อมูลที่ซับซ้อนให้ออกมาเป็น UI/UX หน้าจอการทำงานของระบบองค์กรที่ใช้งานง่ายและคล่องตัว"
+        ]
+      },
+      "skills": ["PHP", "SQL", "MVC", "Postman", "Web Services", "Incident Resolution", "UI/UX", "JavaScript"]
+    },
+    {
+      "company": "SCG (Siam Cement Group), Bang Sue",
+      "period": "2020",
+      "role": {
+        "en": "Engineering Intern (Student Training)",
+        "th": "นักศึกษาฝึกงานด้านวิศวกรรม (Student Training)"
+      },
+      "location": "Bangkok, Thailand",
+      "type": {
+        "en": "Engineering Internship",
+        "th": "ฝึกงานวิศวกรรมองค์กรชั้นนำ"
+      },
+      "color": "#10b981",
+      "highlights": {
+        "en": [
+          "Researched and audited large-scale enterprise database architectures to optimize query execution plans and retrieval throughput",
+          "Developed end-to-end industrial IoT solutions integrating microcontroller hardware, sensor telemetry, and backend data logging for industrial machinery",
+          "Designed ergonomic, high-contrast operational user interfaces specifically adapted for on-site field engineers in industrial factory environments"
+        ],
+        "th": [
+          "ศึกษาวิจัยและตรวจสอบระบบฐานข้อมูลระดับองค์กรขนาดใหญ่ของ SCG เพื่อเพิ่มประสิทธิภาพการค้นหาข้อมูลและการทำ Data Indexing",
+          "พัฒนาโซลูชันระบบ IoT ทางอุตสาหกรรมแบบครบวงจร ทั้งการประกอบฮาร์ดแวร์ไมโครคอนโทรลเลอร์, การอ่านค่าเซ็นเซอร์ และการส่งข้อมูลเข้าเซิร์ฟเวอร์",
+          "ออกแบบ User Interface สำหรับวิศวกรและเจ้าหน้าที่หน้างาน (Site Engineers) ให้สามารถอ่านค่าและสั่งการเครื่องจักรได้สะดวกปลอดภัยในสภาพแวดล้อมโรงงานจริง"
+        ]
+      },
+      "skills": ["Enterprise Database", "Industrial IoT", "Hardware & Firmware", "Telemetry", "UI/UX for Engineers"]
+    }
+  ],
+  "projects": [
+    {
+      "id": "ai-similarity",
+      "year": "2023",
+      "category": "ai",
+      "title": {
+        "en": "AI Visual Similarity Matching Engine",
+        "th": "ระบบ AI ตรวจจับและวัดค่าความเหมือนของรูปภาพ"
+      },
+      "description": {
+        "en": "Developed a computer vision system that captures images, extracts feature embeddings, and calculates cosine similarity scores for automated visual verification.",
+        "th": "พัฒนาระบบคอมพิวเตอร์วิทัศน์ที่ถ่ายภาพ วิเคราะห์ Feature Vector และคำนวณค่าความคล้ายคลึงของรูปภาพเพื่อใช้ในการตรวจสอบอัตโนมัติ"
+      },
+      "tags": ["Python", "Computer Vision", "AI / ML", "Similarity Algorithm"],
+      "featured": true,
+      "stats": "Cosine Vector Matching"
+    },
+    {
+      "id": "third-party-api-gateway",
+      "year": "2023",
+      "category": "backend",
+      "title": {
+        "en": "3rd-Party Mobile API Integration Gateway",
+        "th": "เกตเวย์เชื่อมต่อ API บุคคลที่สามสำหรับโมบายล์"
+      },
+      "description": {
+        "en": "High-throughput API proxy layer orchestrating multiple third-party vendor APIs, handling caching, token rotation, and rate-limiting for mobile clients.",
+        "th": "ระบบเกตเวย์เชื่อมต่อ API บุคคลที่สามสำหรับแอพมือถือ มีระบบจัดการ Caching, Token Rotation และ Rate-Limiting เพื่อรองรับผู้ใช้งานจำนวนมาก"
+      },
+      "tags": ["Node.js", "RESTful API", "Security", "Microservices"],
+      "featured": true,
+      "stats": "High Throughput Proxy"
+    },
+    {
+      "id": "smart-farm-machine-telemetry",
+      "year": "2023",
+      "category": "iot",
+      "title": {
+        "en": "Smart Farm Industrial Machine Sensor Telemetry",
+        "th": "ระบบ IoT ตรวจวัดค่าเครื่องจักรฟาร์มอัจฉริยะ"
+      },
+      "description": {
+        "en": "Custom IoT sensor array deployed around heavy agricultural machinery, streaming real-time operational telemetry to a centralized dashboard.",
+        "th": "ติดตั้งชุดเซ็นเซอร์ IoT รอบเครื่องจักรกลเกษตร วัดค่าการสั่นสะเทือนและอุณหภูมิ พร้อมส่งข้อมูลแบบเรียลไทม์ขึ้นแดชบอร์ดส่วนกลาง"
+      },
+      "tags": ["IoT", "ESP32", "Sensors", "Telemetry", "Real-time"],
+      "featured": true,
+      "stats": "Real-time Machine Monitoring"
+    },
+    {
+      "id": "mobile-crm-lowcode",
+      "year": "2022",
+      "category": "fullstack",
+      "title": {
+        "en": "Enterprise Mobile CRM Low-Code Application",
+        "th": "โมบายล์แอปพลิเคชัน CRM ระดับองค์กร (Low-Code & API)"
+      },
+      "description": {
+        "en": "Built a rapid enterprise CRM mobile application using modern low-code frameworks coupled with custom backend API microservices.",
+        "th": "พัฒนาแอพพลิเคชัน CRM องค์กรบนมือถือด้วยเทคโนโลยี Low-Code ร่วมกับการพัฒนา Custom Backend API เพื่อการประมวลผลข้อมูลที่ยืดหยุ่น"
+      },
+      "tags": ["Mobile Apps", "CRM", "Low-Code", "REST API", "Database"],
+      "featured": false,
+      "stats": "Enterprise CRM Deployment"
+    },
+    {
+      "id": "rest-api-mobile-web",
+      "year": "2022",
+      "category": "backend",
+      "title": {
+        "en": "Unified Core RESTful API Platform",
+        "th": "สถาปัตยกรรมแกนกลาง RESTful API สำหรับเว็บและโมบายล์"
+      },
+      "description": {
+        "en": "Engineered core backend service endpoints with robust auth, transaction handling, and schema validation serving multi-client web and mobile apps.",
+        "th": "ออกแบบและพัฒนา API แกนกลาง รองรับ Authentication, Data Validation, Transaction Management และเชื่อมโยงฐานข้อมูล MySQL"
+      },
+      "tags": ["Node.js", "Laravel", "MySQL", "Postman", "CI/CD"],
+      "featured": true,
+      "stats": "Multi-Tenant Scalability"
+    },
+    {
+      "id": "crm-react-redux",
+      "year": "2021",
+      "category": "fullstack",
+      "title": {
+        "en": "Web CRM Platform (React, Redux & REST)",
+        "th": "ระบบบริหารจัดการลูกค้า CRM (React, Redux & REST)"
+      },
+      "description": {
+        "en": "Interactive business CRM web application with React, Redux state management, React Hook Form validation, custom CSS layout, and backend SQL API.",
+        "th": "เว็บแอปพลิเคชัน CRM ภาคธุรกิจ พัฒนาด้วย React, Redux จัดการ State, React Hook Form ตรวจสอบข้อมูล และเชื่อมต่อฐานข้อมูล SQL"
+      },
+      "tags": ["React", "Redux", "React Hook Form", "CSS", "SQL API"],
+      "featured": false,
+      "stats": "Modern React Architecture"
+    },
+    {
+      "id": "smarthome-cloud-hub",
+      "year": "2020",
+      "category": "iot",
+      "title": {
+        "en": "Smart Home Controller (React Native + Cloud Hub)",
+        "th": "แอพควบคุมบ้านอัจฉริยะ (React Native + IoT Cloud Hub)"
+      },
+      "description": {
+        "en": "Cross-platform mobile application communicating with Open-Hub Cloud IoT APIs for remote light, appliance, and temperature regulation.",
+        "th": "โมบายล์แอพข้ามแพลตฟอร์มด้วย React Native เชื่อมโยง Cloud IoT Open-Hub ควบคุมอุปกรณ์ไฟฟ้าและมอนิเตอร์สถานะภายในบ้าน"
+      },
+      "tags": ["React Native", "IoT", "Cloud Open-Hub", "Mobile"],
+      "featured": true,
+      "stats": "Cloud Open-Hub Integration"
+    },
+    {
+      "id": "face-detection-web",
+      "year": "2020",
+      "category": "ai",
+      "title": {
+        "en": "Online Real-Time Face Detection Web Application",
+        "th": "ระบบตรวจจับใบหน้าแบบเรียลไทม์บนเว็บ (Python & OpenCV)"
+      },
+      "description": {
+        "en": "Browser-based video stream analysis applying computer vision Haar cascades and DNN models for automated facial bounding box detection.",
+        "th": "ระบบตรวจจับใบหน้าจากวิดีโอสตรีมผ่านเว็บเบราว์เซอร์ ประมวลผลด้วยโมเดลคอมพิวเตอร์วิทัศน์บน Python"
+      },
+      "tags": ["Python", "OpenCV", "Web Stream", "Computer Vision"],
+      "featured": false,
+      "stats": "Real-time Detection"
+    },
+    {
+      "id": "match-ai-nlp",
+      "year": "2020",
+      "category": "ai",
+      "title": {
+        "en": "Match AI Natural Language Processing Pipeline",
+        "th": "โมเดลประมวลผลภาษาธรรมชาติ Match AI NLP (Python)"
+      },
+      "description": {
+        "en": "Text analytics and intent-matching pipeline leveraging tokenization, stemming, and semantic embedding algorithms in Python.",
+        "th": "ระบบประมวลผลและจับคู่ข้อความภาษาธรรมชาติด้วย Python สกัด Intent และจำแนกประเภทข้อความอัตโนมัติ"
+      },
+      "tags": ["Python", "NLP", "Text Analytics", "Machine Learning"],
+      "featured": false,
+      "stats": "NLP Classification Pipeline"
+    },
+    {
+      "id": "smartbox-esp32",
+      "year": "2020",
+      "category": "iot",
+      "title": {
+        "en": "Smart Box Controller (NodeMCU ESP32)",
+        "th": "กล่องควบคุมอัจฉริยะ NodeMCU ESP32"
+      },
+      "description": {
+        "en": "Engineered embedded firmware on ESP32 microcontrollers with WiFi telemetry, remote relays, and automated sensor trigger loops.",
+        "th": "เขียนเฟิร์มแวร์ลงบนบอร์ด NodeMCU ESP32 จัดการรีเลย์สวิตช์ เซ็นเซอร์วัดค่า และสื่อสารข้อมูลผ่านสัญญาณ Wi-Fi"
+      },
+      "tags": ["ESP32", "C / C++", "Firmware", "NodeMCU", "Hardware"],
+      "featured": false,
+      "stats": "Custom ESP32 Firmware"
+    },
+    {
+      "id": "iot-trainer-school",
+      "year": "2018",
+      "category": "iot",
+      "title": {
+        "en": "IoT Engineering Workshop & Training Speaker",
+        "th": "วิทยากรอบรมและถ่ายทอดความรู้ด้าน IoT รร.บ้านค่าย"
+      },
+      "description": {
+        "en": "Conducted hands-on technical workshop training high school students on microcontrollers, basic circuit design, and IoT programming.",
+        "th": "ทำหน้าที่วิทยากรถ่ายทอดความรู้เชิงปฏิบัติการแก่นักเรียน สอนการต่อวงจรไมโครคอนโทรลเลอร์และการเขียนโปรแกรมควบคุม IoT"
+      },
+      "tags": ["IoT", "Education", "Workshop", "Public Speaking"],
+      "featured": false,
+      "stats": "Technical Mentorship"
+    },
+    {
+      "id": "smart-farm-nodered",
+      "year": "2017",
+      "category": "iot",
+      "title": {
+        "en": "Smart Farm Automation System (Node-RED & C)",
+        "th": "ระบบฟาร์มอัจฉริยะอัตโนมัติ (Node-RED, C & Database)"
+      },
+      "description": {
+        "en": "Pioneering smart farm infrastructure featuring automated micro-climate regulation, Node-RED visual logic flows, and SQL data persistence.",
+        "th": "ระบบโรงเรือนเกษตรอัจฉริยะรุ่นบุกเบิก ควบคุมสภาพแวดล้อมอัตโนมัติด้วย Node-RED ซอฟต์แวร์ภาษา C และจัดเก็บข้อมูลลงฐานข้อมูล"
+      },
+      "tags": ["Node-RED", "C", "Database", "Automation", "IoT"],
+      "featured": false,
+      "stats": "Pioneer IoT System"
+    },
+    {
+      "id": "smart-plug",
+      "year": "2017",
+      "category": "iot",
+      "title": {
+        "en": "Smart Plug IoT Power Switching Device",
+        "th": "ปลั๊กไฟอัจฉริยะ IoT ควบคุมระยะไกล"
+      },
+      "description": {
+        "en": "Hardware IoT device enabling wireless relay actuation and energy monitoring over standard household appliances.",
+        "th": "อุปกรณ์ปลั๊กไฟอัจฉริยะที่สั่งเปิด-ปิดผ่านระบบไร้สาย และตรวจสอบการใช้พลังงานไฟฟ้าของเครื่องใช้ในบ้าน"
+      },
+      "tags": ["IoT", "Hardware", "Circuits", "Relay Control"],
+      "featured": false,
+      "stats": "Hardware Prototype"
+    }
+  ],
+  "skills": {
+    "languages": [
+      {
+        "name": "PHP",
+        "badge": { "en": "Core Backend", "th": "ภาษาหลักแบ็กเอนด์" },
+        "detail": { "en": "Laravel, MVC Web, Enterprise REST APIs", "th": "Laravel, โครงสร้าง MVC, REST API ระดับองค์กร" },
+        "highlight": true
+      },
+      {
+        "name": "Python",
+        "badge": { "en": "AI & Automation", "th": "AI & ระบบอัตโนมัติ" },
+        "detail": { "en": "OpenCV Vision, NLP Text Models, Online Web", "th": "OpenCV วิทัศน์, NLP ประมวลภาษา, เว็บเซอร์วิส" },
+        "highlight": true
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "badge": { "en": "Fullstack", "th": "ฟูลสแตก" },
+        "detail": { "en": "Node.js, Express, Async I/O, Frontend", "th": "Node.js, Express, Async I/O, ฟรอนต์เอนด์" },
+        "highlight": true
+      },
+      {
+        "name": "TypeScript",
+        "badge": { "en": "Type-Safe", "th": "ปลอดภัยด้าน Type" },
+        "detail": { "en": "Strict Typing, Modern Scalable Architecture", "th": "ระบบ Type ปลอดภัย, สถาปัตยกรรมขยายตัวได้" },
+        "highlight": true
+      },
+      {
+        "name": "SQL (MySQL / Oracle)",
+        "badge": { "en": "Database", "th": "ฐานข้อมูล" },
+        "detail": { "en": "Complex Queries, Stored Procedures, Indexing", "th": "Query ซับซ้อน, Stored Procedure, ดัชนีค้นหา" },
+        "highlight": true
+      },
+      {
+        "name": "C & C++",
+        "badge": { "en": "Embedded Systems", "th": "ระบบสมองกลฝังตัว" },
+        "detail": { "en": "Microcontroller Firmware, IoT Sensor Triggers", "th": "เขียนเฟิร์มแวร์ไมโครคอนโทรลเลอร์, ทริกเกอร์เซ็นเซอร์" },
+        "highlight": false
+      },
+      {
+        "name": "HTML5 / CSS3",
+        "badge": { "en": "Frontend Base", "th": "พื้นฐานหน้าเว็บ" },
+        "detail": { "en": "Responsive Design, Glassmorphism, Semantic Web", "th": "เรสปอนซีฟ, Glassmorphism, โครงสร้างเว็บมาตรฐาน" },
+        "highlight": false
+      }
+    ],
+    "backend": [
+      {
+        "name": "RESTful API Architecture",
+        "badge": { "en": "Core Specialty", "th": "ความเชี่ยวชาญหลัก" },
+        "detail": { "en": "Full Auth, High Throughput, Postman Tested", "th": "ระบบสิทธิ์ครบถ้วน, ทราฟฟิกสูง, ทดสอบด้วย Postman" },
+        "highlight": true
+      },
+      {
+        "name": "Node.js & Express",
+        "badge": { "en": "Production", "th": "ใช้งานจริง" },
+        "detail": { "en": "API Gateways, Microservices, Event Loops", "th": "API Gateway, ไมโครเซอร์วิส, Event Loop" },
+        "highlight": true
+      },
+      {
+        "name": "Laravel Framework",
+        "badge": { "en": "Enterprise", "th": "ระบบองค์กร" },
+        "detail": { "en": "Robust MVC, ORM Relationships, Job Queues", "th": "สถาปัตยกรรม MVC, ORM จัดการตาราง, ระบบคิวงาน" },
+        "highlight": true
+      },
+      {
+        "name": "API Documentation & Specs",
+        "badge": { "en": "Standards", "th": "มาตรฐานสากล" },
+        "detail": { "en": "OpenAPI / Swagger Specs, Contract First", "th": "จัดทำเอกสาร OpenAPI / Swagger Spec ชัดเจน" },
+        "highlight": true
+      },
+      {
+        "name": "Postman API Testing",
+        "badge": { "en": "Testing & QA", "th": "การทดสอบ & QA" },
+        "detail": { "en": "Automated Test Suites, Environment Staging", "th": "ชุดทดสอบอัตโนมัติ, ตรวจสอบระหว่างเซิร์ฟเวอร์" },
+        "highlight": true
+      }
+    ],
+    "database": [
+      {
+        "name": "MySQL",
+        "badge": { "en": "Production DB", "th": "ฐานข้อมูลหลัก" },
+        "detail": { "en": "Relational Modeling, Foreign Keys, High Concurrency", "th": "ออกแบบความสัมพันธ์ตาราง, รองรับคำสั่งพร้อมกันสูง" },
+        "highlight": true
+      },
+      {
+        "name": "Oracle Database",
+        "badge": { "en": "Enterprise DB", "th": "ฐานข้อมูลองค์กร" },
+        "detail": { "en": "Enterprise Systems, PL/SQL, Transaction Integrity", "th": "ระบบองค์กรขนาดใหญ่, PL/SQL, ความถูกต้องของธุรกรรม" },
+        "highlight": true
+      },
+      {
+        "name": "Database Schema Design",
+        "badge": { "en": "Architecture", "th": "การออกแบบ" },
+        "detail": { "en": "Normalization, ER Diagrams, Scalable Schemas", "th": "การทำ Normalization, แผนผัง ER, สกีมาขยายตัวได้" },
+        "highlight": true
+      },
+      {
+        "name": "Query Optimization",
+        "badge": { "en": "Performance", "th": "การรีดประสิทธิภาพ" },
+        "detail": { "en": "Execution Plans, B-Tree Indexes, Query Tuning", "th": "วิเคราะห์ Execution Plan, ปรับแต่ง Index เพิ่มความเร็ว" },
+        "highlight": false
+      }
+    ],
+    "devops": [
+      {
+        "name": "GitLab CI/CD",
+        "badge": { "en": "Automated Pipeline", "th": "ไปป์ไลน์อัตโนมัติ" },
+        "detail": { "en": "Build Pipelines, Automated Testing, Server Deploy", "th": "ไปป์ไลน์บิลด์อัตโนมัติ, รันทดสอบ, ปล่อยขึ้น Server" },
+        "highlight": true
+      },
+      {
+        "name": "Git & GitHub",
+        "badge": { "en": "Version Control", "th": "ควบคุมเวอร์ชัน" },
+        "detail": { "en": "Branching Strategies, Merge Reviews, Monorepo", "th": "การจัดการ Branch, การ Review โค้ดอย่างมีระบบ" },
+        "highlight": true
+      },
+      {
+        "name": "Vercel & Nitro Deploy",
+        "badge": { "en": "Cloud Serverless", "th": "คลาวด์ Serverless" },
+        "detail": { "en": "Edge Network, Zero-Config Serverless Functions", "th": "เน็ตเวิร์ก Edge, เซิร์ฟเวอร์เลสประมวลผลฉับไว" },
+        "highlight": true
+      },
+      {
+        "name": "Linux Server Ops",
+        "badge": { "en": "Infrastructure", "th": "โครงสร้างเซิร์ฟเวอร์" },
+        "detail": { "en": "Bash CLI, Process Managers, Service Monitoring", "th": "คำสั่ง Bash CLI, ควบคุมโพรเซส, มอนิเตอร์เซอร์วิส" },
+        "highlight": false
+      }
+    ],
+    "iotAi": [
+      {
+        "name": "ESP32 & NodeMCU",
+        "badge": { "en": "Hardware & IoT", "th": "ฮาร์ดแวร์ & IoT" },
+        "detail": { "en": "WiFi Telemetry, Relays, Real-time Sensor Polling", "th": "ส่งข้อมูลผ่าน Wi-Fi, ควบคุมรีเลย์, อ่านค่าเซ็นเซอร์สด" },
+        "highlight": true
+      },
+      {
+        "name": "Node-RED",
+        "badge": { "en": "IoT Automation", "th": "โฟลว์อัตโนมัติ" },
+        "detail": { "en": "Visual Dataflow Logic, Smart Agriculture Triggers", "th": "ต่อวงจร Logic การไหลของข้อมูล, ระบบฟาร์มอัจฉริยะ" },
+        "highlight": true
+      },
+      {
+        "name": "IoT Cloud Open-Hub",
+        "badge": { "en": "Cloud Gateway", "th": "คลาวด์เกตเวย์" },
+        "detail": { "en": "Remote Actuation, Mobile Telemetry Sync", "th": "สั่งการอุปกรณ์ทางไกล, เชื่อมโยงแอปพลิเคชันมือถือ" },
+        "highlight": false
+      },
+      {
+        "name": "Computer Vision (OpenCV)",
+        "badge": { "en": "Image Processing", "th": "ประมวลภาพ" },
+        "detail": { "en": "Real-time Face Detection, Image Similarity Vectors", "th": "ตรวจจับใบหน้าเรียลไทม์, เวกเตอร์เปรียบเทียบภาพเหมือน" },
+        "highlight": false
+      }
+    ]
+  },
+  "education": {
+    "institution": {
+      "en": "Sripatum University",
+      "th": "มหาวิทยาลัยศรีปทุม"
+    },
+    "degree": {
+      "en": "Bachelor of Computer Engineering (B.Eng)",
+      "th": "วิศวกรรมศาสตรบัณฑิต สาขาวิชาวิศวกรรมคอมพิวเตอร์"
+    },
+    "year": "2021",
+    "gpa": "3.27",
+    "leadership": {
+      "en": [
+        "President, Computer and Technology Organization",
+        "Vice President, Samo Sripatum (Student Council)",
+        "Core Member, University IoT Research Group"
+      ],
+      "th": [
+        "ประธานองค์กรนักศึกษา สาขาวิชาคอมพิวเตอร์และเทคโนโลยี",
+        "รองนายกสโมสรนักศึกษา มหาวิทยาลัยศรีปทุม (สโมศรีปทุม)",
+        "สมาชิกแกนนำกลุ่มวิจัยและพัฒนานวัตกรรม IoT"
+      ]
+    },
+    "award": {
+      "title": {
+        "en": "Distinguished IT Student Award for Ethics & Morality (InCIT / nCIT 2020)",
+        "th": "รางวัลนักศึกษาดีเด่นด้านคุณธรรมและจริยธรรม สาขาไอที (InCIT / nCIT 2020)"
+      },
+      "year": "2020"
+    }
+  },
+  "aiShowcase": {
+    "title": {
+      "en": "AI Behind the Build (Collaboration Steps)",
+      "th": "เบื้องหลังการสร้างด้วย AI (ขั้นตอนที่คุณและผมร่วมมือกันทำ)"
+    },
+    "subtitle": {
+      "en": "Transparent chronicle of how Antigravity AI collaborated with you to build this portfolio from your resume to production",
+      "th": "บันทึกขั้นตอนจริงทั้งหมดที่ Antigravity AI ร่วมมือกับคุณ ตั้งแต่วิเคราะห์ภาพเรซูเม่ ออกแบบสถาปัตยกรรม จนได้ผลงานสมบูรณ์"
+    },
+    "steps": [
+      {
+        "step": 1,
+        "tool": "Antigravity AI (Gemini 3.8 Flash)",
+        "badge": "Requirement & Interactive Alignment",
+        "name": {
+          "en": "Resume OCR Ingestion & Interactive Architecture Interview (/grill-me)",
+          "th": "วิเคราะห์ภาพ Resume & สัมภาษณ์สโคปงานทีละขั้น (/grill-me)"
+        },
+        "description": {
+          "en": "Ingested your PDF resume image and special skill directives (/caveman, /modern-web-guidance, /grill-me). Initiated an interactive interview to align on design style (Dark Tech Minimal + Glassmorphism + Terminal + 3D Tilt), SPA architecture, bilingual toggle, and Vercel scope before writing any code.",
+          "th": "อ่านภาพเรซูเม่ของคุณผ่าน OCR และตรวจรับคำสั่งสกิล (/caveman, /modern-web-guidance, /grill-me) จากนั้นเปิดโหมดสัมภาษณ์สดเพื่อตกลงแนวทางดีไซน์ (Dark Tech Minimal + Terminal + 3D Tilt), สถาปัตยกรรม SPA, ระบบ 2 ภาษา และเป้าหมาย Vercel ให้ตรงใจคุณที่สุด"
+        },
+        "recipe": {
+          "prompt": "User prompt: /caveman /modern-web-guidance ทำ protfolio ของฉัน จาก resume ข้างบน ทันสมัยและดูเป็น เทคโนโลยี มีลูกเล่น โดยใช้ NuxtJs v.4^ เป็น framwork/grill-me โดย อัพขึ้น ver cel...",
+          "input": "ภาพ Resume (Ms. Natthamon Kosem) + คำสั่ง /caveman, /modern-web-guidance, /grill-me",
+          "output": "มติการออกแบบร่วมกัน และเอกสารแผนงาน implementation_plan.md ที่คุณอนุมัติ"
+        },
+        "icon": "Bot"
+      },
+      {
+        "step": 2,
+        "tool": "Antigravity AI",
+        "badge": "Data Modeling & Localization",
+        "name": {
+          "en": "Resume Semantic Extraction & Bilingual Schema Engineering",
+          "th": "สกัดข้อมูล Resume แปลงเป็นโครงสร้าง JSON 2 ภาษา (data/profile.json)"
+        },
+        "description": {
+          "en": "Extracted unformatted resume text into a strict, typed bilingual JSON schema (data/profile.json). Categorized 14 technical projects spanning 2017–2023 (IoT, AI, Backend, Fullstack), mapped 3 companies (SCG, So-at, Rudy Tech), and structured competencies without arbitrary percentage bars.",
+          "th": "นำข้อมูลดิบจากเรซูเม่มาจัดระเบียบเป็น JSON 2 ภาษา (ไทย/อังกฤษ) อย่างแม่นยำ 100% ไม่มีการเดาข้อมูล จัดหมวดหมู่ 14 โปรเจกต์วิศวกรรม (2017-2023), บันทึกประวัติงาน 3 ที่ (SCG, So-at, Rudy Tech) และปรับทักษะเป็นบทบาทจริงโดยไม่ใช้ % หลอกตา"
+        },
+        "recipe": {
+          "prompt": "Parse resume OCR text into bilingual data/profile.json with 14 projects, career timeline, academic honors (GPA 3.27), and concrete technical competency tags.",
+          "input": "ข้อความ OCR จากเรซูเม่ต้นฉบับ",
+          "output": "data/profile.json (โครงสร้างข้อมูลที่ถูกต้อง ครบถ้วน และรองรับ 2 ภาษา)"
+        },
+        "icon": "Cpu"
+      },
+      {
+        "step": 3,
+        "tool": "Antigravity IDE",
+        "badge": "Nuxt 4 & Infrastructure",
+        "name": {
+          "en": "Nuxt 4 Architecture & Vercel Nitro Preset Configuration",
+          "th": "วางโครงสร้าง Nuxt 4.5+ และคอนฟิก Vercel Nitro Deployment Preset"
+        },
+        "description": {
+          "en": "Scaffolded modern Nuxt 4 (nuxt@^4.5.2) with Vue 3 Composition API, Tailwind CSS, custom dark cyber theme, developer typography (JetBrains Mono, Space Grotesk, Kanit), and configured nitro: { preset: 'vercel' } with vercel.json for seamless serverless deployment.",
+          "th": "สร้างโครงสร้าง Nuxt 4 เวอร์ชัน 4.5.2 ล่าสุด พร้อม Vue 3 Composition API, วางธีม Tailwind สี Cyber Dark, ฟอนต์ JetBrains Mono / Space Grotesk และคอนฟิก Nitro Engine Preset 'vercel' รองรับ Serverless Edge บน Vercel"
+        },
+        "recipe": {
+          "prompt": "Setup Nuxt 4 architecture with Nitro preset 'vercel', Tailwind CSS, Lucide icons, telemetry disabled, and Vercel Build Output API v3 config.",
+          "input": "ข้อกำหนดเทคโนโลยี Nuxt 4 + Vercel Deployment Target",
+          "output": "nuxt.config.ts, package.json, tailwind.config.js, vercel.json"
+        },
+        "icon": "Layers"
+      },
+      {
+        "step": 4,
+        "tool": "Antigravity IDE & Modern Web Guidance",
+        "badge": "UI & Interactive Engineering",
+        "name": {
+          "en": "Synthesizing Interactive 3D Bento, Canvas Particles & CLI Terminal",
+          "th": "สร้าง UI ล้ำสมัย, ระบบอนุภาค Canvas, 3D Bento Grid และ CLI Terminal"
+        },
+        "description": {
+          "en": "Engineered high-tech components following Modern Web Guidance: interactive mouse-driven Canvas particle mesh (BackgroundCanvas.vue), real-time 3D perspective tilt on 14 projects (ProjectsBento.vue), runnable developer CLI terminal (InteractiveTerminalModal.vue), and native dialog @starting-style animations.",
+          "th": "พัฒนาคอมโพเนนต์ลูกเล่นตาม Modern Web Guidance: แบ็กกราวด์อนุภาค Canvas ตอบสนองเมาส์, เอฟเฟกต์ 3D Card Tilt บน Bento Grid 14 โครงงาน, กล่อง Terminal CLI ที่พิมพ์คำสั่งโต้ตอบได้จริง และ Modal มาตรฐาน @starting-style"
+        },
+        "recipe": {
+          "prompt": "Synthesize Vue 3 components: BackgroundCanvas.vue, ProjectsBento.vue with 3D tilt, InteractiveTerminalModal.vue with runnable commands, and floating dock with bilingual switcher.",
+          "input": "data/profile.json + Modern Web Guidance (@starting-style, transition-behavior: allow-discrete)",
+          "output": "ชุด UI Components สไตล์ Cyber Glassmorphism ลื่นไหลระดับ 60 FPS"
+        },
+        "icon": "LayoutGrid"
+      },
+      {
+        "step": 5,
+        "tool": "Antigravity CLI",
+        "badge": "Build, Audit & Vercel Release",
+        "name": {
+          "en": "Production Compilation, SSR Verification & Vercel Release Artifacts",
+          "th": "คอมไพล์ Production, ตรวจสอบ SSR และจัดเตรียม Output สำหรับ Vercel"
+        },
+        "description": {
+          "en": "Executed headless Nuxt 4 compilation, audited client/server chunk sizes, verified SSR rendering on local server, and packaged the official .vercel/output/ serverless bundle ready for 1-click Vercel deployment.",
+          "th": "รันคำสั่งคอมไพล์ด้วย Nuxt 4 Nitro Engine, ตรวจสอบขนาด Bundle และความเร็วการโหลด, ทดสอบการเรนเดอร์ SSR ในเครื่อง และสร้างแพ็กเกจ .vercel/output/ สำหรับ Deploy ขึ้น Vercel ได้ทันที"
+        },
+        "recipe": {
+          "prompt": "Execute 'npx nuxt build', audit generated .vercel/output directory, test SSR curl response, and document release commands.",
+          "input": "Source code โปรเจกต์ Nuxt 4 ทั้งหมด",
+          "output": ".vercel/output/ (Serverless Bundle) พร้อมคำสั่ง Deploy สำเร็จรูป"
+        },
+        "icon": "Terminal"
+      }
+    ]
+  }
+}
