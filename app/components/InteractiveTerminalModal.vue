@@ -95,7 +95,7 @@ const outputAreaRef = ref<HTMLElement | null>(null)
 const inputRef = ref<HTMLInputElement | null>(null)
 const inputCommand = ref('')
 
-const quickCommands = ['help', 'skills', 'projects', 'experience', 'education', 'contact', 'ai', 'clear']
+const quickCommands = ['help', 'skills', 'projects', 'freelance', 'experience', 'education', 'contact', 'clear']
 
 const history = ref<LogEntry[]>([
   {
@@ -134,12 +134,12 @@ const runCommand = (cmdText: string) => {
   switch (cmd) {
     case 'help':
       output = `Available CLI Commands:
-  • skills       - List backend, database, language, and IoT technical proficiencies
-  • projects     - Summarize key production projects & architectural highlights
-  • experience   - View corporate experience at Rudy Tech, So-at, and SCG
+  • skills       - List backend, database, language, and industrial IoT competencies
+  • projects     - Summarize 15+ key production projects & architectural highlights
+  • freelance    - Inspect VBX_APUST Industrial Dispensing Control HMI System
+  • experience   - View corporate & freelance experience (Rudy Tech, Freelance, SCG)
   • education    - Display degree, GPA (3.27), leadership, and national award
   • contact      - Print direct email, mobile phone, and location details
-  • ai           - Show AI tools and orchestration steps behind this portfolio
   • resume       - Print JSON summary of candidate profile
   • clear        - Clear the terminal screen
   • exit         - Close this terminal modal`
@@ -149,30 +149,47 @@ const runCommand = (cmdText: string) => {
       output = `ENGINEERING COMPETENCIES:
 [Backend & APIs]:   RESTful APIs (Core Specialty), Node.js/Express, Laravel MVC, OpenAPI Specs, Postman
 [Databases]:        MySQL, Oracle Database (PL/SQL), Schema Normalization, Query Optimization
+[Industrial & IoT]: Modbus TCP & PLC Control (16 DI/DO), Cognex Vision 2800, Keyence TCP Sockets, ESP32
 [Languages]:        PHP, Python (OpenCV/NLP), JavaScript (ES6+), TypeScript, SQL, C/C++
-[DevOps / CI-CD]:   GitLab CI/CD Pipelines, Git/GitHub, Vercel & Nitro Deploy, Linux Server
-[IoT & AI]:         ESP32 & NodeMCU, Node-RED Automation, IoT Cloud Open-Hub, Face Detection`
+[DevOps / CI-CD]:   GitLab CI/CD Pipelines, Git/GitHub, Vercel & Nitro Deploy, Linux Server`
       break
 
     case 'projects':
-      output = `FEATURED PROJECTS (14 Total):
-1. [2023 AI]       AI Visual Similarity Matching Engine (Cosine Vector)
-2. [2023 Backend]  3rd-Party Mobile API Integration Gateway
-3. [2023 IoT]      Smart Farm Industrial Machine Sensor Telemetry
-4. [2022 Full]     Enterprise Mobile CRM Low-Code Application
-5. [2022 Backend]  Unified Core RESTful API Platform (Node.js/Laravel/MySQL)
-6. [2021 Full]     Web CRM Platform (React, Redux, React Hook Form)
-7. [2020 IoT]      Smart Home Controller (React Native + Cloud Hub)
+      output = `FEATURED PROJECTS (15 Total):
+1. [2024 Freelance] VBX_APUST Industrial Dispensing Control HMI (Modbus TCP/Cognex Vision/Robot)
+2. [2023 AI]        AI Visual Similarity Matching Engine (Cosine Vector)
+3. [2023 Backend]   3rd-Party Mobile API Integration Gateway
+4. [2023 IoT]       Smart Farm Industrial Machine Sensor Telemetry
+5. [2022 Full]      Enterprise Mobile CRM Low-Code Application
+6. [2022 Backend]   Unified Core RESTful API Platform (Node.js/Laravel/MySQL)
+7. [2021 Full]      Web CRM Platform (React, Redux, React Hook Form)
+8. [2020 IoT]       Smart Home Controller (React Native + Cloud Hub)
 ...and 7 more in the Projects Bento grid.`
+      break
+
+    case 'freelance':
+      output = `FREELANCE ENGINEERING PROJECT:
+Project:      VBX_APUST (VBX Dispensing Control System)
+Role:         Industrial Automation & HMI Developer (Freelance)
+Year:         2024
+Architecture:
+  • Multi-Protocol HMI: Industrial HMI coordinating robot dispensers, vision inspection & safety interlocks
+  • PLC Modbus TCP: 16 Digital Inputs / 16 Digital Outputs (pneumatic clamps, tower lights, safety switches)
+  • Keyence Barcode: TCP Socket communication for model parsing & dynamic dispensing recipe selection
+  • Cognex In-Sight 2800: HTTP REST API / TCP for real-time post-dispensing Pass/Fail quality inspection
+  • Robot Dispenser: Motion dispatch commands and synchronized cycle execution
+  • Finite State Machine: Standby -> Clamp -> Barcode Verify -> Safety Curtain -> Robot Dispense -> Vision Check -> Unclamp`
       break
 
     case 'experience':
       output = `CAREER TRACE:
 1. Rudy Technology (2022 - Present) | Back-end Developer
    - RESTful APIs, complex SQL/MVC, mobile CRM low-code bridges, GitLab CI/CD, API specs.
-2. So-at Solution (2021) | Software Engineer Intern
+2. Freelance Industrial Automation (2023 - 2024) | Industrial Automation & HMI Engineer
+   - VBX_APUST dispensing system, PLC Modbus TCP (16 DI/DO), Cognex Vision inspection, Keyence TCP.
+3. So-at Solution (2021) | Software Engineer Intern
    - Web service incident resolution, SQL stored procedures, MVC web, Postman API validation.
-3. SCG, Bang Sue (2020) | Engineering Intern
+4. SCG, Bang Sue (2020) | Engineering Intern
    - Enterprise database optimization, IoT hardware/software monitoring, UI design.`
       break
 
@@ -197,17 +214,10 @@ Address:  ${profileData.profile.contact.address}`
       break
 
     case 'ai':
-      output = `AI BEHIND THE BUILD (COLLABORATION STEPS):
-Step 1: Antigravity AI (Gemini 3.8 Flash)
-        -> Resume OCR analysis, /caveman & /modern-web-guidance, interactive /grill-me session
-Step 2: Antigravity AI
-        -> Normalized raw resume into bilingual data/profile.json (14 projects, 3 companies, GPA 3.27)
-Step 3: Antigravity IDE
-        -> Nuxt 4 (v4.5.2) scaffold, Tailwind dark cyber theme, Nitro preset 'vercel' & vercel.json
-Step 4: Antigravity IDE & Modern Web Guidance
-        -> HTML5 Canvas particle constellation, 3D tilt Bento Grid, CLI terminal, native @starting-style dialogs
-Step 5: Antigravity CLI
-        -> Headless compilation, SSR verification, and generation of .vercel/output for 1-click deploy`
+      output = `AI & COMPUTER VISION PROJECTS:
+• AI Visual Similarity Matching Engine (Cosine Vector Feature Extraction)
+• Online Real-Time Face Detection (OpenCV & Video Streaming)
+• Match AI Natural Language Processing Pipeline (Intent & Semantic Matching)`
       break
 
     case 'resume':

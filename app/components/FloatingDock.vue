@@ -55,6 +55,6 @@ const navItems = [
   { href: '#experience', label: { en: 'Experience', th: 'ประสบการณ์' }, short: { en: 'Exp', th: 'งาน' } },
   { href: '#projects', label: { en: 'Projects', th: 'ผลงาน' }, short: { en: 'Proj', th: 'ผลงาน' } },
   { href: '#skills', label: { en: 'Skills', th: 'ทักษะ' }, short: { en: 'Skills', th: 'ทักษะ' } },
-  { href: '#ai-showcase', label: { en: 'AI Build', th: 'สร้างด้วย AI' }, short: { en: 'AI', th: 'AI' } }
+  { href: '#contact', label: { en: 'Contact', th: 'ติดต่อ' }, short: { en: 'Contact', th: 'ติดต่อ' } }
 ]
 </script>

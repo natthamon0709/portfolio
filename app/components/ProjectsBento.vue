@@ -11,8 +11,8 @@
         </h2>
         <p class="text-slate-400 text-sm sm:text-base max-w-xl">
           {{ currentLang === 'en'
-            ? 'Interactive showcase of 14+ engineered systems spanning RESTful APIs, IoT telemetry, and AI models.'
-            : 'รวมผลงาน 14 โครงการ ทั้งระบบแบ็กเอนด์ API, โซลูชัน IoT เซ็นเซอร์ และโมเดล AI ตรวจจับ' }}
+            ? 'Interactive showcase of 15+ engineered systems spanning Industrial HMI, RESTful APIs, IoT telemetry, and AI models.'
+            : 'รวมผลงาน 15 โครงการ ทั้งระบบ Industrial Automation HMI, แบ็กเอนด์ API, โซลูชัน IoT และโมเดล AI' }}
         </p>
       </div>
 
@@ -46,11 +46,17 @@
         @mousemove="onMouseMove($event, project.id)"
         @mouseleave="onMouseLeave(project.id)"
         :style="getCardStyle(project.id)"
-        class="glass-card rounded-2xl p-6 border border-white/5 hover:border-cyber-cyan/40 transition-all duration-200 flex flex-col justify-between relative group cursor-pointer overflow-hidden transform-gpu"
+        class="glass-card rounded-2xl p-6 border transition-all duration-200 flex flex-col justify-between relative group cursor-pointer overflow-hidden transform-gpu"
+        :class="project.category === 'freelance'
+          ? 'border-amber-400/30 hover:border-amber-400/60 shadow-lg shadow-amber-500/5'
+          : 'border-white/5 hover:border-cyber-cyan/40'"
         @click="selectedProject = project; openDialog()"
       >
         <!-- Background Neon Highlight -->
-        <div class="absolute -right-16 -top-16 w-32 h-32 bg-cyber-cyan/10 rounded-full blur-2xl group-hover:bg-cyber-cyan/25 transition-all pointer-events-none" />
+        <div
+          class="absolute -right-16 -top-16 w-32 h-32 rounded-full blur-2xl transition-all pointer-events-none"
+          :class="project.category === 'freelance' ? 'bg-amber-400/15 group-hover:bg-amber-400/30' : 'bg-cyber-cyan/10 group-hover:bg-cyber-cyan/25'"
+        />
 
         <div>
           <!-- Top Row: Category & Year -->
@@ -59,13 +65,16 @@
               class="text-[11px] font-mono uppercase px-2 py-0.5 rounded-md border"
               :class="getCategoryBadgeClass(project.category)"
             >
-              {{ project.category }}
+              {{ project.category === 'freelance' ? (currentLang === 'en' ? 'Freelance Task' : 'งานฟรีแลนซ์') : project.category }}
             </span>
             <span class="text-xs font-mono text-slate-300">{{ project.year }}</span>
           </div>
 
           <!-- Title -->
-          <h3 class="text-lg font-bold text-white group-hover:text-cyber-cyan transition-colors mb-2 line-clamp-2">
+          <h3
+            class="text-lg font-bold text-white transition-colors mb-2 line-clamp-2"
+            :class="project.category === 'freelance' ? 'group-hover:text-amber-300' : 'group-hover:text-cyber-cyan'"
+          >
             {{ project.title[currentLang] }}
           </h3>
 
@@ -77,8 +86,15 @@
 
         <div>
           <!-- Key Metric Tag -->
-          <div v-if="project.stats" class="text-xs font-mono text-cyber-cyan/90 mb-3 flex items-center gap-1.5">
-            <span class="inline-block w-1.5 h-1.5 rounded-full bg-cyber-cyan animate-pulse" />
+          <div
+            v-if="project.stats"
+            class="text-xs font-mono mb-3 flex items-center gap-1.5"
+            :class="project.category === 'freelance' ? 'text-amber-300/90' : 'text-cyber-cyan/90'"
+          >
+            <span
+              class="inline-block w-1.5 h-1.5 rounded-full animate-pulse"
+              :class="project.category === 'freelance' ? 'bg-amber-400' : 'bg-cyber-cyan'"
+            />
             <span>{{ project.stats }}</span>
           </div>
 
@@ -110,11 +126,11 @@
           <div>
             <div class="flex items-center gap-2 mb-1">
               <span class="text-xs font-mono uppercase px-2 py-0.5 rounded-md border" :class="getCategoryBadgeClass(selectedProject.category)">
-                {{ selectedProject.category }}
+                {{ selectedProject.category === 'freelance' ? (currentLang === 'en' ? 'Freelance Task' : 'งานฟรีแลนซ์') : selectedProject.category }}
               </span>
               <span class="text-xs font-mono text-slate-400">Year {{ selectedProject.year }}</span>
             </div>
-            <h3 class="text-2xl font-bold text-white">
+            <h3 class="text-xl sm:text-2xl font-bold text-white">
               {{ selectedProject.title[currentLang] }}
             </h3>
           </div>
@@ -129,12 +145,48 @@
 
         <div class="space-y-4">
           <div>
-            <h4 class="text-xs font-mono uppercase tracking-wider text-cyber-cyan mb-1">
+            <h4 class="text-xs font-mono uppercase tracking-wider text-cyber-cyan mb-1.5">
               // {{ currentLang === 'en' ? 'System Overview' : 'ภาพรวมระบบ' }}
             </h4>
             <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
               {{ selectedProject.description[currentLang] }}
             </p>
+          </div>
+
+          <!-- Technical Highlights for complex projects (e.g. VBX_APUST) -->
+          <div v-if="selectedProject.highlights" class="space-y-2">
+            <h4 class="text-xs font-mono uppercase tracking-wider text-cyber-cyan mb-1.5">
+              // {{ currentLang === 'en' ? 'System Architecture & Integration' : 'สถาปัตยกรรมและการควบคุมระบบ (Integration)' }}
+            </h4>
+            <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
+              <li
+                v-for="(h, hIdx) in selectedProject.highlights[currentLang]"
+                :key="hIdx"
+                class="flex items-start gap-2.5 leading-relaxed bg-black/40 p-2.5 rounded-xl border border-white/5"
+              >
+                <span class="text-cyber-cyan mt-0.5 select-none font-bold">&bull;</span>
+                <span>{{ h }}</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Finite State Machine Workflow Pipeline -->
+          <div v-if="selectedProject.workflow" class="space-y-2">
+            <h4 class="text-xs font-mono uppercase tracking-wider text-amber-400 mb-1.5">
+              // {{ currentLang === 'en' ? 'Deterministic State Machine Workflow' : 'วงจรการทำงาน Finite State Machine & Workflow' }}
+            </h4>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono">
+              <div
+                v-for="wf in selectedProject.workflow"
+                :key="wf.step"
+                class="p-2.5 rounded-xl bg-slate-900/90 border border-white/10 flex items-center gap-2.5 hover:border-amber-400/40 transition-colors"
+              >
+                <span class="w-6 h-6 rounded-lg bg-amber-400/20 text-amber-300 border border-amber-400/40 flex items-center justify-center text-xs font-bold shrink-0">
+                  0{{ wf.step }}
+                </span>
+                <span class="text-slate-200 leading-snug">{{ wf.name[currentLang] }}</span>
+              </div>
+            </div>
           </div>
 
           <div v-if="selectedProject.stats" class="p-3 rounded-xl bg-black/40 border border-cyber-cyan/20">
@@ -218,6 +270,7 @@ const getCardStyle = (id: string) => {
 
 const categories = [
   { id: 'all', label: { en: 'All Systems', th: 'ทั้งหมด' } },
+  { id: 'freelance', label: { en: 'Freelance Tasks', th: 'งานฟรีแลนซ์' } },
   { id: 'backend', label: { en: 'Backend & APIs', th: 'แบ็กเอนด์ & API' } },
   { id: 'iot', label: { en: 'IoT & Embedded', th: 'IoT & อุปกรณ์' } },
   { id: 'ai', label: { en: 'AI & Vision', th: 'AI & วิทัศน์' } },
@@ -236,6 +289,8 @@ const filteredProjects = computed(() => {
 
 const getCategoryBadgeClass = (category: string) => {
   switch (category) {
+    case 'freelance':
+      return 'bg-amber-400/15 text-amber-300 border-amber-400/40'
     case 'backend':
       return 'bg-cyan-500/10 text-cyan-400 border-cyan-500/30'
     case 'ai':
@@ -243,7 +298,7 @@ const getCategoryBadgeClass = (category: string) => {
     case 'iot':
       return 'bg-emerald-500/10 text-emerald-400 border-emerald-500/30'
     default:
-      return 'bg-amber-500/10 text-amber-400 border-amber-500/30'
+      return 'bg-blue-500/10 text-blue-400 border-blue-500/30'
   }
 }
 

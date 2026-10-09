@@ -44,12 +44,12 @@
       <div class="glass-card rounded-2xl p-5 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
         <div class="text-xs font-mono text-emerald-400 font-bold mb-1">PILLAR 03</div>
         <h3 class="text-base font-bold text-white mb-1.5">
-          {{ currentLang === 'en' ? 'IoT Telemetry & Industrial UI' : 'IoT เทเลเมทรี & ฮาร์ดแวร์หน้างาน' }}
+          {{ currentLang === 'en' ? 'Industrial Automation & IoT Systems' : 'ระบบอัตโนมัติอุตสาหกรรม (PLC/HMI) & IoT' }}
         </h3>
-        <p class="text-xs text-slate-400 font-mono leading-relaxed">
+        <p class="text-xs text-slate-300 font-mono leading-relaxed">
           {{ currentLang === 'en'
-            ? 'ESP32 firmware, real-time sensor polling, Node-RED flows, and field engineer interfaces at SCG.'
-            : 'เขียนเฟิร์มแวร์ ESP32, สตรีมมิ่งข้อมูลเซ็นเซอร์สด, ระบบ Node-RED และ UI สำหรับวิศวกรหน้างานจริง' }}
+            ? 'PLC Modbus TCP (16 DI/DO), Cognex Machine Vision, Keyence scanners, robot arm state machines, and SCG IoT.'
+            : 'ควบคุม PLC Modbus TCP, กล้อง Cognex Vision, เครื่องสแกน Keyence, วงจร State Machine แขนกล และระบบ IoT ของ SCG' }}
         </p>
       </div>
     </div>

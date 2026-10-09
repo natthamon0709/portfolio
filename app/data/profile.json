@@ -42,7 +42,7 @@
       }
     },
     {
-      "value": "14+",
+      "value": "15+",
       "label": {
         "en": "Projects Delivered",
         "th": "โปรเจกต์ที่ส่งมอบ"
@@ -96,6 +96,39 @@
         ]
       },
       "skills": ["Node.js", "PHP", "Laravel", "MySQL", "Oracle DB", "RESTful API", "GitLab CI/CD", "Postman", "MVC Architecture", "OpenAPI Spec"]
+    },
+    {
+      "company": "Freelance Industrial Automation",
+      "role": {
+        "en": "Industrial Automation & HMI Engineer (Freelance)",
+        "th": "วิศวกรระบบอัตโนมัติ & พัฒนา HMI (ฟรีแลนซ์)"
+      },
+      "period": "2023 - 2024",
+      "location": "Thailand",
+      "type": {
+        "en": "Freelance Engineering Task",
+        "th": "งานฟรีแลนซ์ / วิศวกรรมระบบ"
+      },
+      "color": "#38bdf8",
+      "highlights": {
+        "en": [
+          "Architected and developed VBX_APUST (VBX Dispensing Control System): Industrial Automation HMI software controlling automated adhesive/fluid dispensing production lines",
+          "Multi-protocol Industrial Integration: Interfaced with industrial PLC via Modbus TCP (managing 16 Digital Inputs & 16 Digital Outputs for pneumatic clamps, signal tower lights, and safety interlocks)",
+          "Peripheral Communication: Streamed data from Keyence Barcode Scanner via TCP Socket for real-time model verification and dynamic dispensing recipe selection",
+          "Machine Vision Quality Inspection: Interfaced with Cognex In-Sight 2800 smart camera via HTTP REST API / TCP for post-dispensing quality verification (Pass / Fail)",
+          "Robot & Motion Coordination: Dispatched synchronized trigger signals and program execution to high-precision robotic dispenser arm",
+          "Deterministic State Machine: Engineered an end-to-end Finite State Machine workflow: Standby Check → Workpiece Clamping → Barcode Scan → Safety Light Curtain Interlock → Robot Dispensing → Vision Inspection → Workpiece Release"
+        ],
+        "th": [
+          "ออกแบบและพัฒนาระบบ VBX_APUST (VBX Dispensing Control System) ซอฟต์แวร์ Industrial Automation HMI สำหรับควบคุมสายการผลิตหยอดกาว/จ่ายสารอัตโนมัติเต็มรูปแบบ",
+          "การเชื่อมต่อระบบ Multi-protocol: สื่อสารกับ PLC ผ่าน Modbus TCP ควบคุม 16 Digital Inputs / 16 Digital Outputs (กระบอกสูบนิวแมติกแคลมป์ชิ้นงาน, ไฟสัญญาณ Tower Light, สวิตช์นิรภัย)",
+          "สื่อสารกับ Keyence Barcode Scanner ผ่าน TCP Socket เพื่ออ่านค่าบาร์โค้ดและเลือกโปรแกรมการหยอดสารให้ตรงตามโมเดลชิ้นงานโดยอัตโนมัติ",
+          "เชื่อมต่อกล้อง Cognex In-Sight 2800 ผ่าน HTTP REST API / TCP เพื่อตรวจสอบคุณภาพการหยอดสาร (Vision Inspection: Pass / Fail)",
+          "ส่งสัญญาณควบคุมและสั่งรันการทำงานไปยังแขนกล Robot Dispenser อย่างแม่นยำและสอดประสาน",
+          "ออกแบบวงจรการทำงานด้วย Finite State Machine เต็มรูปแบบ: ตรวจสอบสถานะ Standby → แคลมป์ล็อกชิ้นงาน → สแกนบาร์โค้ดเช็กโมเดล → ตรวจจับม่านนิรภัย (Safety Curtain) → สั่งแขนกลเริ่มหยอดสาร → เรียกกล้องตรวจคุณภาพ → ปลดแคลมป์ชิ้นงาน"
+        ]
+      },
+      "skills": ["Modbus TCP", "PLC (16 DI/16 DO)", "HMI System", "Cognex In-Sight 2800", "Keyence Scanner", "Robot Dispenser", "Finite State Machine", "Safety Interlocks", "TCP Socket", "REST API"]
     },
     {
       "company": "So-at Solution",
@@ -155,6 +188,57 @@
     }
   ],
   "projects": [
+    {
+      "id": "vbx-dispensing-system",
+      "year": "2024",
+      "category": "freelance",
+      "title": {
+        "en": "VBX_APUST — Industrial Dispensing Control HMI System",
+        "th": "VBX_APUST — ระบบควบคุมการหยอดสารอัตโนมัติ Industrial HMI"
+      },
+      "description": {
+        "en": "Industrial Automation HMI system controlling automated dispensing production lines. Coordinates Modbus TCP PLC (16 DI/DO), Keyence barcode scanners (TCP Socket), Cognex In-Sight 2800 vision inspection (HTTP REST/TCP), and robot dispenser arm through a deterministic safety Finite State Machine.",
+        "th": "ระบบ Industrial Automation HMI สำหรับควบคุมสายการผลิตหยอดกาว/จ่ายสารอัตโนมัติ โดยเชื่อมต่อและประสานการทำงานร่วมกันระหว่างเครื่องอ่านบาร์โค้ด Keyence (TCP Socket), กล้อง Machine Vision Cognex In-Sight 2800 (HTTP REST API/TCP), PLC (Modbus TCP 16 DI/16 DO) และแขนกล Robot Dispenser ผ่าน Finite State Machine และระบบม่านนิรภัย Safety Curtain"
+      },
+      "tags": [
+        "Industrial Automation",
+        "HMI Systems",
+        "Modbus TCP",
+        "Cognex Vision 2800",
+        "Keyence TCP Socket",
+        "PLC 16 DI/DO",
+        "Robot Arm",
+        "Finite State Machine",
+        "Safety Interlocks"
+      ],
+      "featured": true,
+      "stats": "Multi-Protocol Industrial HMI & State Machine",
+      "highlights": {
+        "en": [
+          "Multi-protocol Industrial Integration: Interfaced with PLC via Modbus TCP (16 DI / 16 DO) controlling pneumatic clamps, tower lights, and safety relays",
+          "Keyence Barcode Scanner: Integrated over TCP Socket to read barcode and automatically load matching model dispensing recipes",
+          "Cognex In-Sight 2800 Machine Vision: Communicated via HTTP REST API / TCP for real-time post-dispensing Pass/Fail quality inspection",
+          "Robot Dispenser Motion Control: Coordinated dispatch signals and execution commands with robotic dispensing arm",
+          "Finite State Machine: Robust deterministic automation loop enforcing safety interlocks and error handling at every cycle"
+        ],
+        "th": [
+          "สถาปัตยกรรมและการควบคุมแบบ Multi-protocol: สื่อสารกับ PLC ผ่าน Modbus TCP ควบคุม 16 DI / 16 DO (กระบอกสูบนิวแมติก, ไฟ Tower Light, สวิตช์นิรภัย)",
+          "สื่อสารกับ Keyence Barcode Scanner ผ่าน TCP Socket อ่านบาร์โค้ดและเลือกโปรแกรมการหยอดสารตรงตามโมเดลชิ้นงาน",
+          "สื่อสารกับกล้อง Cognex In-Sight 2800 ผ่าน HTTP REST API / TCP ตรวจสอบคุณภาพหลังหยอดสาร (Vision Inspection: Pass / Fail)",
+          "ส่งสัญญาณควบคุมและสั่งรันการทำงานไปยังแขนกล Robot Dispenser อย่างแม่นยำ",
+          "Finite State Machine: ออกแบบวงจรการทำงานที่ปลอดภัย ป้องกันข้อผิดพลาด และผสานระบบม่านนิรภัยทุกจังหวะ"
+        ]
+      },
+      "workflow": [
+        { "step": 1, "name": { "en": "Standby Status Check", "th": "ตรวจสอบสถานะ Standby" } },
+        { "step": 2, "name": { "en": "Pneumatic Workpiece Clamping", "th": "แคลมป์ล็อกชิ้นงาน" } },
+        { "step": 3, "name": { "en": "Keyence Barcode Scan & Model Verification", "th": "สแกนบาร์โค้ดเช็กโมเดล" } },
+        { "step": 4, "name": { "en": "Safety Light Curtain Detection", "th": "ตรวจจับม่านนิรภัย (Safety Curtain)" } },
+        { "step": 5, "name": { "en": "Robot Dispenser Execution", "th": "สั่งแขนกลเริ่มหยอดสาร" } },
+        { "step": 6, "name": { "en": "Cognex Vision Inspection (Pass / Fail)", "th": "เรียกกล้องตรวจสอบคุณภาพ (Pass / Fail)" } },
+        { "step": 7, "name": { "en": "Pneumatic Unclamping & Cycle Complete", "th": "ปลดแคลมป์ชิ้นงาน & จบลูป" } }
+      ]
+    },
     {
       "id": "ai-similarity",
       "year": "2023",
@@ -495,6 +579,18 @@
     ],
     "iotAi": [
       {
+        "name": "Modbus TCP & PLC Control",
+        "badge": { "en": "Industrial Protocols", "th": "โปรโตคอลอุตสาหกรรม" },
+        "detail": { "en": "16 DI / 16 DO, Actuator & Relay Interfacing, Safety Curtain", "th": "ควบคุม 16 DI / 16 DO, ควบคุมกระบอกสูบและรีเลย์นิรภัย" },
+        "highlight": true
+      },
+      {
+        "name": "Machine Vision & HMI",
+        "badge": { "en": "Industrial Automation", "th": "ระบบอัตโนมัติ & HMI" },
+        "detail": { "en": "Cognex In-Sight 2800, Keyence TCP Sockets, Finite State Machines", "th": "กล้อง Cognex In-Sight 2800, บาร์โค้ด Keyence, State Machine" },
+        "highlight": true
+      },
+      {
         "name": "ESP32 & NodeMCU",
         "badge": { "en": "Hardware & IoT", "th": "ฮาร์ดแวร์ & IoT" },
         "detail": { "en": "WiFi Telemetry, Relays, Real-time Sensor Polling", "th": "ส่งข้อมูลผ่าน Wi-Fi, ควบคุมรีเลย์, อ่านค่าเซ็นเซอร์สด" },
@@ -504,7 +600,7 @@
         "name": "Node-RED",
         "badge": { "en": "IoT Automation", "th": "โฟลว์อัตโนมัติ" },
         "detail": { "en": "Visual Dataflow Logic, Smart Agriculture Triggers", "th": "ต่อวงจร Logic การไหลของข้อมูล, ระบบฟาร์มอัจฉริยะ" },
-        "highlight": true
+        "highlight": false
       },
       {
         "name": "IoT Cloud Open-Hub",
@@ -550,112 +646,5 @@
       },
       "year": "2020"
     }
-  },
-  "aiShowcase": {
-    "title": {
-      "en": "AI Behind the Build (Collaboration Steps)",
-      "th": "เบื้องหลังการสร้างด้วย AI (ขั้นตอนที่คุณและผมร่วมมือกันทำ)"
-    },
-    "subtitle": {
-      "en": "Transparent chronicle of how Antigravity AI collaborated with you to build this portfolio from your resume to production",
-      "th": "บันทึกขั้นตอนจริงทั้งหมดที่ Antigravity AI ร่วมมือกับคุณ ตั้งแต่วิเคราะห์ภาพเรซูเม่ ออกแบบสถาปัตยกรรม จนได้ผลงานสมบูรณ์"
-    },
-    "steps": [
-      {
-        "step": 1,
-        "tool": "Antigravity AI (Gemini 3.8 Flash)",
-        "badge": "Requirement & Interactive Alignment",
-        "name": {
-          "en": "Resume OCR Ingestion & Interactive Architecture Interview (/grill-me)",
-          "th": "วิเคราะห์ภาพ Resume & สัมภาษณ์สโคปงานทีละขั้น (/grill-me)"
-        },
-        "description": {
-          "en": "Ingested your PDF resume image and special skill directives (/caveman, /modern-web-guidance, /grill-me). Initiated an interactive interview to align on design style (Dark Tech Minimal + Glassmorphism + Terminal + 3D Tilt), SPA architecture, bilingual toggle, and Vercel scope before writing any code.",
-          "th": "อ่านภาพเรซูเม่ของคุณผ่าน OCR และตรวจรับคำสั่งสกิล (/caveman, /modern-web-guidance, /grill-me) จากนั้นเปิดโหมดสัมภาษณ์สดเพื่อตกลงแนวทางดีไซน์ (Dark Tech Minimal + Terminal + 3D Tilt), สถาปัตยกรรม SPA, ระบบ 2 ภาษา และเป้าหมาย Vercel ให้ตรงใจคุณที่สุด"
-        },
-        "recipe": {
-          "prompt": "User prompt: /caveman /modern-web-guidance ทำ protfolio ของฉัน จาก resume ข้างบน ทันสมัยและดูเป็น เทคโนโลยี มีลูกเล่น โดยใช้ NuxtJs v.4^ เป็น framwork/grill-me โดย อัพขึ้น ver cel...",
-          "input": "ภาพ Resume (Ms. Natthamon Kosem) + คำสั่ง /caveman, /modern-web-guidance, /grill-me",
-          "output": "มติการออกแบบร่วมกัน และเอกสารแผนงาน implementation_plan.md ที่คุณอนุมัติ"
-        },
-        "icon": "Bot"
-      },
-      {
-        "step": 2,
-        "tool": "Antigravity AI",
-        "badge": "Data Modeling & Localization",
-        "name": {
-          "en": "Resume Semantic Extraction & Bilingual Schema Engineering",
-          "th": "สกัดข้อมูล Resume แปลงเป็นโครงสร้าง JSON 2 ภาษา (data/profile.json)"
-        },
-        "description": {
-          "en": "Extracted unformatted resume text into a strict, typed bilingual JSON schema (data/profile.json). Categorized 14 technical projects spanning 2017–2023 (IoT, AI, Backend, Fullstack), mapped 3 companies (SCG, So-at, Rudy Tech), and structured competencies without arbitrary percentage bars.",
-          "th": "นำข้อมูลดิบจากเรซูเม่มาจัดระเบียบเป็น JSON 2 ภาษา (ไทย/อังกฤษ) อย่างแม่นยำ 100% ไม่มีการเดาข้อมูล จัดหมวดหมู่ 14 โปรเจกต์วิศวกรรม (2017-2023), บันทึกประวัติงาน 3 ที่ (SCG, So-at, Rudy Tech) และปรับทักษะเป็นบทบาทจริงโดยไม่ใช้ % หลอกตา"
-        },
-        "recipe": {
-          "prompt": "Parse resume OCR text into bilingual data/profile.json with 14 projects, career timeline, academic honors (GPA 3.27), and concrete technical competency tags.",
-          "input": "ข้อความ OCR จากเรซูเม่ต้นฉบับ",
-          "output": "data/profile.json (โครงสร้างข้อมูลที่ถูกต้อง ครบถ้วน และรองรับ 2 ภาษา)"
-        },
-        "icon": "Cpu"
-      },
-      {
-        "step": 3,
-        "tool": "Antigravity IDE",
-        "badge": "Nuxt 4 & Infrastructure",
-        "name": {
-          "en": "Nuxt 4 Architecture & Vercel Nitro Preset Configuration",
-          "th": "วางโครงสร้าง Nuxt 4.5+ และคอนฟิก Vercel Nitro Deployment Preset"
-        },
-        "description": {
-          "en": "Scaffolded modern Nuxt 4 (nuxt@^4.5.2) with Vue 3 Composition API, Tailwind CSS, custom dark cyber theme, developer typography (JetBrains Mono, Space Grotesk, Kanit), and configured nitro: { preset: 'vercel' } with vercel.json for seamless serverless deployment.",
-          "th": "สร้างโครงสร้าง Nuxt 4 เวอร์ชัน 4.5.2 ล่าสุด พร้อม Vue 3 Composition API, วางธีม Tailwind สี Cyber Dark, ฟอนต์ JetBrains Mono / Space Grotesk และคอนฟิก Nitro Engine Preset 'vercel' รองรับ Serverless Edge บน Vercel"
-        },
-        "recipe": {
-          "prompt": "Setup Nuxt 4 architecture with Nitro preset 'vercel', Tailwind CSS, Lucide icons, telemetry disabled, and Vercel Build Output API v3 config.",
-          "input": "ข้อกำหนดเทคโนโลยี Nuxt 4 + Vercel Deployment Target",
-          "output": "nuxt.config.ts, package.json, tailwind.config.js, vercel.json"
-        },
-        "icon": "Layers"
-      },
-      {
-        "step": 4,
-        "tool": "Antigravity IDE & Modern Web Guidance",
-        "badge": "UI & Interactive Engineering",
-        "name": {
-          "en": "Synthesizing Interactive 3D Bento, Canvas Particles & CLI Terminal",
-          "th": "สร้าง UI ล้ำสมัย, ระบบอนุภาค Canvas, 3D Bento Grid และ CLI Terminal"
-        },
-        "description": {
-          "en": "Engineered high-tech components following Modern Web Guidance: interactive mouse-driven Canvas particle mesh (BackgroundCanvas.vue), real-time 3D perspective tilt on 14 projects (ProjectsBento.vue), runnable developer CLI terminal (InteractiveTerminalModal.vue), and native dialog @starting-style animations.",
-          "th": "พัฒนาคอมโพเนนต์ลูกเล่นตาม Modern Web Guidance: แบ็กกราวด์อนุภาค Canvas ตอบสนองเมาส์, เอฟเฟกต์ 3D Card Tilt บน Bento Grid 14 โครงงาน, กล่อง Terminal CLI ที่พิมพ์คำสั่งโต้ตอบได้จริง และ Modal มาตรฐาน @starting-style"
-        },
-        "recipe": {
-          "prompt": "Synthesize Vue 3 components: BackgroundCanvas.vue, ProjectsBento.vue with 3D tilt, InteractiveTerminalModal.vue with runnable commands, and floating dock with bilingual switcher.",
-          "input": "data/profile.json + Modern Web Guidance (@starting-style, transition-behavior: allow-discrete)",
-          "output": "ชุด UI Components สไตล์ Cyber Glassmorphism ลื่นไหลระดับ 60 FPS"
-        },
-        "icon": "LayoutGrid"
-      },
-      {
-        "step": 5,
-        "tool": "Antigravity CLI",
-        "badge": "Build, Audit & Vercel Release",
-        "name": {
-          "en": "Production Compilation, SSR Verification & Vercel Release Artifacts",
-          "th": "คอมไพล์ Production, ตรวจสอบ SSR และจัดเตรียม Output สำหรับ Vercel"
-        },
-        "description": {
-          "en": "Executed headless Nuxt 4 compilation, audited client/server chunk sizes, verified SSR rendering on local server, and packaged the official .vercel/output/ serverless bundle ready for 1-click Vercel deployment.",
-          "th": "รันคำสั่งคอมไพล์ด้วย Nuxt 4 Nitro Engine, ตรวจสอบขนาด Bundle และความเร็วการโหลด, ทดสอบการเรนเดอร์ SSR ในเครื่อง และสร้างแพ็กเกจ .vercel/output/ สำหรับ Deploy ขึ้น Vercel ได้ทันที"
-        },
-        "recipe": {
-          "prompt": "Execute 'npx nuxt build', audit generated .vercel/output directory, test SSR curl response, and document release commands.",
-          "input": "Source code โปรเจกต์ Nuxt 4 ทั้งหมด",
-          "output": ".vercel/output/ (Serverless Bundle) พร้อมคำสั่ง Deploy สำเร็จรูป"
-        },
-        "icon": "Terminal"
-      }
-    ]
   }
 }

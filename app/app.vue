@@ -17,10 +17,7 @@
       <!-- 03. Engineering Skills Matrix -->
       <SkillsMatrix />
 
-      <!-- 04. AI Behind the Build (Requested requirement) -->
-      <AiShowcaseSection />
-
-      <!-- 05. Contact & Footer -->
+      <!-- 04. Contact & Footer -->
       <ContactSection />
     </main>
 

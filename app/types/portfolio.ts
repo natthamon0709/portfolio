@@ -41,15 +41,25 @@ export interface ExperienceItem {
   skills: string[]
 }
 
+export interface WorkflowStep {
+  step: number
+  name: LocalizedString
+}
+
 export interface ProjectItem {
   id: string
   year: string
-  category: 'ai' | 'backend' | 'iot' | 'fullstack' | string
+  category: 'ai' | 'backend' | 'iot' | 'fullstack' | 'freelance' | string
   title: LocalizedString
   description: LocalizedString
   tags: string[]
   featured: boolean
   stats?: string
+  highlights?: {
+    en: string[]
+    th: string[]
+  }
+  workflow?: WorkflowStep[]
 }
 
 export interface SkillItem {
@@ -111,7 +121,7 @@ export interface PortfolioData {
   projects: ProjectItem[]
   skills: SkillsGroup
   education: EducationItem
-  aiShowcase: AiShowcaseData
+  aiShowcase?: AiShowcaseData
 }
 
 export interface TerminalModalExpose {

@@ -11,10 +11,10 @@ Built with **Nuxt 4**, **Tailwind CSS**, and modern web standards. Pre-configure
 - **Nuxt 4 Architecture**: Built on Nuxt `^4.5.2` with Vue 3 Composition API and fast SSR.
 - **Bilingual Switcher (EN / TH)**: Seamless one-click language toggle across all content.
 - **Interactive Background Canvas**: Real-time particle constellation and mesh grid responsive to mouse movements.
-- **Interactive 3D Bento Grid**: 14 technical projects (Backend, AI/ML, IoT, Fullstack) with real-time 3D perspective tilt and interactive modal details.
-- **Interactive Developer CLI Terminal**: Built-in bash-like terminal modal (`help`, `skills`, `projects`, `experience`, `education`, `contact`, `ai`, `resume`).
+- **Interactive 3D Bento Grid**: 15 technical projects (Freelance Tasks, Backend, AI/ML, IoT, Fullstack) with real-time 3D perspective tilt and interactive modal details.
+- **Interactive Developer CLI Terminal**: Built-in bash-like terminal modal (`help`, `skills`, `projects`, `freelance`, `experience`, `education`, `contact`, `resume`).
 - **Modern Dialogs (`@starting-style`)**: Smooth entry/exit animations conforming to modern web guidance.
-- **"AI Behind the Build" Showcase**: Full transparent disclosure of the 4-step AI orchestration process (ChatGPT, Antigravity IDE, Antigravity CLI, Vercel).
+- **Industrial Automation & Multi-Protocol Systems**: Featuring VBX_APUST Dispensing Control System (Modbus TCP PLC, Cognex Machine Vision, Keyence Barcode, Robot Arm, Finite State Machine).
 - **Vercel Zero-Config Deployment**: Output directory and Nitro engine tuned for Vercel Serverless / Edge.
 
 ---
@@ -32,7 +32,6 @@ Built with **Nuxt 4**, **Tailwind CSS**, and modern web standards. Pre-configure
 │   ├── ExperienceSection.vue       # Work experience & education git-tree timeline
 │   ├── ProjectsBento.vue           # 3D Tilt bento grid with category filters
 │   ├── SkillsMatrix.vue            # Categorized engineering competencies & progress meters
-│   ├── AiShowcaseSection.vue       # AI Behind the Build pipeline & prompt inspect modal
 │   ├── InteractiveTerminalModal.vue# Runnable developer terminal emulator
 │   └── ContactSection.vue          # Interactive contact cards with confetti copy
 ├── composables/
@@ -89,9 +88,9 @@ npx vercel deploy --prebuilt
 
 ---
 
-## AI Behind the Build (เบื้องหลังการสร้าง)
+## Core Engineering Highlights
 
-1. **ChatGPT**: Data Architecture — Normalized raw resume text into structured bilingual `data/profile.json`.
-2. **Antigravity IDE**: System Architecture — Nuxt 4 scaffold, Nitro Vercel configuration, TypeScript types.
-3. **Antigravity IDE**: UI & Layout Engine — Glassmorphism, 3D Tilt Bento grid, Canvas particles, and modern CSS `@starting-style` modal dialogs.
-4. **Antigravity CLI**: DevOps & Release — Production build compilation, verification, and Vercel release readiness.
+- **Backend & APIs**: High-throughput RESTful APIs, OpenAPI/Swagger specifications, sub-100ms response latency, robust rate-limiting and token lifecycle.
+- **Enterprise Databases**: MySQL & Oracle Database relational schema normalization, B-Tree index tuning, stored procedures.
+- **Industrial Automation & HMI**: Multi-protocol integration with PLC (Modbus TCP 16 DI/16 DO), Keyence barcode scanners (TCP Socket), Cognex In-Sight 2800 Machine Vision (HTTP REST/TCP), and robot arm deterministic state machines.
+- **DevOps & Quality**: GitLab CI/CD pipelines, automated testing, zero-downtime deployments, 99.9% API uptime.
