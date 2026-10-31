@@ -15,7 +15,7 @@
       <div class="lg:col-span-7 space-y-5 sm:space-y-6 text-left">
         <div class="space-y-2">
           <p class="text-xs sm:text-sm font-mono uppercase tracking-widest text-cyber-cyan font-semibold">
-            // {{ currentLang === 'en' ? 'Full-Stack Software Engineer (Backend & Python)' : 'วิศวกรซอฟต์แวร์ฟูลสแตก (Full-Stack & Backend Engineer)' }}
+            // {{ currentLang === 'en' ? 'Full-Stack Software Engineer' : 'วิศวกรซอฟต์แวร์ฟูลสแตก (Full-Stack & Backend Engineer)' }}
           </p>
           <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight">
             {{ profileData.profile.name[currentLang] }}
