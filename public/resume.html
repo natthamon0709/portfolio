@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Natthamon Kosem - Full-Stack Software Engineer Resume</title>
+  <title>Resume - Natthamon Kosem | Full-Stack Software Engineer</title>
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap');
 
     @page {
       size: A4 portrait;
@@ -19,7 +19,7 @@
     }
 
     body {
-      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       background-color: #cbd5e1;
       color: #0f172a;
       line-height: 1.36;
@@ -27,7 +27,7 @@
     }
 
     .no-print-bar {
-      background: #090d16;
+      background: #0f172a;
       color: #fff;
       padding: 12px 24px;
       display: flex;
@@ -42,10 +42,7 @@
     .no-print-bar .title {
       font-weight: 700;
       font-size: 14px;
-      color: #38bdf8;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+      color: #e2e8f0;
     }
 
     .no-print-bar .btn-group {
@@ -54,9 +51,9 @@
     }
 
     .btn {
-      background: #0284c7;
+      background: #1e293b;
       color: white;
-      border: none;
+      border: 1px solid #475569;
       padding: 8px 18px;
       border-radius: 6px;
       font-size: 13px;
@@ -70,17 +67,15 @@
     }
 
     .btn:hover {
-      background: #0369a1;
-    }
-
-    .btn-secondary {
-      background: #1e293b;
-    }
-    .btn-secondary:hover {
       background: #334155;
     }
 
-    /* A4 Resume Canvas (210mm x 297mm) */
+    .btn-primary {
+      background: #0f172a;
+      border-color: #64748b;
+    }
+
+    /* A4 Resume Page Canvas (210mm x 297mm) */
     .resume-page {
       width: 210mm;
       height: 297mm;
@@ -94,15 +89,15 @@
       overflow: hidden;
     }
 
-    /* Modern Dark Slate Header */
+    /* Clean Corporate Dark Slate Header */
     .header-banner {
-      background: linear-gradient(135deg, #090d16 0%, #0f172a 60%, #1e293b 100%);
+      background: #0f172a;
       color: #ffffff;
       display: grid;
       grid-template-columns: 130px 1fr;
       align-items: center;
       padding: 18px 26px;
-      border-bottom: 3px solid #0284c7;
+      border-bottom: 3px solid #334155;
       position: relative;
     }
 
@@ -115,11 +110,11 @@
     .profile-photo {
       width: 106px;
       height: 106px;
-      border-radius: 18px;
+      border-radius: 12px;
       object-fit: cover;
       object-position: top center;
-      border: 3px solid #38bdf8;
-      box-shadow: 0 4px 14px rgba(0,0,0,0.4);
+      border: 3px solid #475569;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
     }
 
     .header-text {
@@ -131,7 +126,7 @@
       font-weight: 700;
       letter-spacing: 2px;
       text-transform: uppercase;
-      color: #38bdf8;
+      color: #94a3b8;
       margin-bottom: 2px;
       font-family: 'JetBrains Mono', monospace;
     }
@@ -155,14 +150,14 @@
     .badge-role {
       font-size: 12px;
       font-weight: 600;
-      color: #e2e8f0;
+      color: #cbd5e1;
       margin-right: 4px;
     }
 
     .badge-chip {
-      background: rgba(56, 189, 248, 0.15);
-      color: #7dd3fc;
-      border: 1px solid rgba(56, 189, 248, 0.3);
+      background: #1e293b;
+      color: #cbd5e1;
+      border: 1px solid #475569;
       padding: 2px 7px;
       border-radius: 4px;
       font-size: 9.5px;
@@ -210,7 +205,7 @@
       text-transform: uppercase;
       color: #0f172a;
       padding-bottom: 3px;
-      border-bottom: 2px solid #0284c7;
+      border-bottom: 2px solid #0f172a;
       margin-bottom: 6px;
       display: flex;
       align-items: center;
@@ -219,9 +214,10 @@
 
     .section-title::before {
       content: '//';
-      color: #0284c7;
+      color: #64748b;
       font-family: 'JetBrains Mono', monospace;
       font-size: 9px;
+      font-weight: 700;
     }
 
     /* Contact Block */
@@ -232,7 +228,7 @@
       background: #f1f5f9;
       padding: 7px 10px;
       border-radius: 6px;
-      border-left: 3px solid #0284c7;
+      border-left: 3px solid #0f172a;
       margin-bottom: 9px;
     }
 
@@ -250,8 +246,8 @@
     }
 
     .contact-item a {
-      color: #0284c7;
-      text-decoration: none;
+      color: #0f172a;
+      text-decoration: underline;
       word-break: break-all;
       font-weight: 500;
     }
@@ -264,7 +260,7 @@
       text-align: justify;
     }
 
-    /* Skills Categories */
+    /* Skills Categories - Clean Neutral Styling (No Red) */
     .skill-category {
       margin-bottom: 6px;
     }
@@ -283,7 +279,7 @@
 
     .skill-cat-title::before {
       content: '■';
-      color: #0284c7;
+      color: #475569;
       font-size: 7px;
     }
 
@@ -304,10 +300,10 @@
       font-weight: 500;
     }
 
-    .pill.accent {
-      background: #e0f2fe;
-      color: #0369a1;
-      border-color: #bae6fd;
+    .pill.bold {
+      background: #e2e8f0;
+      color: #0f172a;
+      border-color: #94a3b8;
       font-weight: 700;
     }
 
@@ -330,7 +326,7 @@
       content: '•';
       position: absolute;
       left: 0;
-      color: #0284c7;
+      color: #0f172a;
       font-weight: bold;
       font-size: 10px;
     }
@@ -356,7 +352,7 @@
     .exp-period {
       font-size: 9px;
       font-weight: 700;
-      color: #0284c7;
+      color: #475569;
       font-family: 'JetBrains Mono', monospace;
     }
 
@@ -385,7 +381,7 @@
       content: '▸';
       position: absolute;
       left: 0;
-      color: #0284c7;
+      color: #0f172a;
       font-size: 8.5px;
       top: 0.5px;
     }
@@ -421,7 +417,7 @@
 
     .project-year {
       font-size: 7.8px;
-      color: #0284c7;
+      color: #475569;
       font-family: 'JetBrains Mono', monospace;
       font-weight: 600;
     }
@@ -434,7 +430,7 @@
 
     .project-tech {
       font-size: 7.3px;
-      color: #0284c7;
+      color: #334155;
       margin-top: 2px;
       font-weight: 600;
     }
@@ -461,7 +457,7 @@
 
     .edu-year {
       font-size: 9px;
-      color: #0284c7;
+      color: #475569;
       font-weight: 700;
       font-family: 'JetBrains Mono', monospace;
     }
@@ -500,14 +496,14 @@
   <!-- Top Action Bar -->
   <div class="no-print-bar">
     <div class="title">
-      <span>📄 Natthamon Kosem — Full-Stack Software Engineer Resume</span>
+      <span>Natthamon Kosem - Full-Stack Software Engineer Resume</span>
     </div>
     <div class="btn-group">
-      <button class="btn" onclick="window.print()">
-        <span>🖨️ Print / Save as PDF</span>
+      <button class="btn btn-primary" onclick="window.print()">
+        <span>Print / Save as PDF</span>
       </button>
-      <a class="btn btn-secondary" href="/Natthamon_Kosem_Resume.pdf" download="Natthamon_Kosem_Resume.pdf">
-        <span>⬇️ Download PDF Direct</span>
+      <a class="btn" href="/Natthamon_Kosem_Resume.pdf" download="Natthamon_Kosem_Resume.pdf">
+        <span>Download PDF Direct</span>
       </a>
     </div>
   </div>
@@ -546,18 +542,18 @@
           </p>
         </section>
 
-        <!-- Technical Competencies -->
+        <!-- Technical Competencies (Clean Neutral Styling - No Red) -->
         <section class="section">
           <h2 class="section-title">Areas of Expertise</h2>
 
           <div class="skill-category">
             <div class="skill-cat-title">Core Languages</div>
             <div class="pill-list">
-              <span class="pill accent">Python</span>
-              <span class="pill accent">JavaScript (ES6+)</span>
-              <span class="pill accent">TypeScript</span>
+              <span class="pill bold">Python</span>
+              <span class="pill bold">JavaScript (ES6+)</span>
+              <span class="pill bold">TypeScript</span>
               <span class="pill">PHP</span>
-              <span class="pill accent">SQL</span>
+              <span class="pill bold">SQL</span>
               <span class="pill">C / C++</span>
               <span class="pill">HTML5 / CSS3</span>
             </div>
@@ -578,8 +574,8 @@
           <div class="skill-category">
             <div class="skill-cat-title">Databases & Persistence</div>
             <div class="pill-list">
-              <span class="pill accent">MySQL</span>
-              <span class="pill accent">Oracle Database</span>
+              <span class="pill bold">MySQL</span>
+              <span class="pill bold">Oracle Database</span>
               <span class="pill">PL/SQL Stored Procedures</span>
               <span class="pill">Schema Normalization</span>
               <span class="pill">Query Optimization & Indexing</span>
@@ -631,19 +627,19 @@
       <!-- RIGHT MAIN CONTENT -->
       <main class="right-col">
 
-        <!-- Contact Strip -->
+        <!-- Contact Strip (Clean, No Emojis) -->
         <div class="contact-grid">
           <div class="contact-item">
-            <strong>📞 Mobile:</strong> 099-564-9387
+            <strong>Phone:</strong> 099-564-9387
           </div>
           <div class="contact-item">
-            <strong>✉️ Email:</strong> <a href="mailto:nutkosem@gmail.com">nutkosem@gmail.com</a>
+            <strong>Email:</strong> <a href="mailto:nutkosem@gmail.com">nutkosem@gmail.com</a>
           </div>
           <div class="contact-item">
-            <strong>📍 Location:</strong> Nonthaburi / Bangkok, Thailand
+            <strong>Location:</strong> Nonthaburi / Bangkok, Thailand
           </div>
           <div class="contact-item">
-            <strong>🐙 GitHub:</strong> <a href="https://github.com/natthamon0709/portfolio" target="_blank">natthamon0709/portfolio</a>
+            <strong>GitHub:</strong> <a href="https://github.com/natthamon0709/portfolio" target="_blank">natthamon0709/portfolio</a>
           </div>
         </div>
 

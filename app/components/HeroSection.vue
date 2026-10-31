@@ -55,9 +55,9 @@
             href="/Natthamon_Kosem_Resume.pdf"
             download="Natthamon_Kosem_Resume.pdf"
             target="_blank"
-            class="flex-1 sm:flex-none text-center justify-center px-4 sm:px-5 py-2.5 rounded-xl font-mono text-xs sm:text-sm font-semibold glass-card border border-rose-500/40 text-rose-300 hover:text-white hover:bg-rose-500/15 transition-all flex items-center gap-1.5"
+            class="flex-1 sm:flex-none text-center justify-center px-4 sm:px-5 py-2.5 rounded-xl font-mono text-xs sm:text-sm font-semibold glass-card border border-slate-600 text-slate-200 hover:text-white hover:bg-white/10 transition-all flex items-center gap-1.5"
           >
-            <span>📄 {{ currentLang === 'en' ? 'Resume PDF' : 'ดาวน์โหลดเรซูเม่' }}</span>
+            <span>{{ currentLang === 'en' ? 'Resume (PDF)' : 'ดาวน์โหลดเรซูเม่ (PDF)' }}</span>
           </a>
 
           <button
