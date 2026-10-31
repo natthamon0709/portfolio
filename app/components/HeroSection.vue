@@ -15,7 +15,7 @@
       <div class="lg:col-span-7 space-y-5 sm:space-y-6 text-left">
         <div class="space-y-2">
           <p class="text-xs sm:text-sm font-mono uppercase tracking-widest text-cyber-cyan font-semibold">
-            // {{ currentLang === 'en' ? 'Full-Stack Software Engineer' : 'วิศวกรซอฟต์แวร์ฟูลสแตก (Full-Stack & Backend Engineer)' }}
+            {{ currentLang === 'en' ? 'Computer Engineer & Full-Stack Developer' : 'วิศวกรคอมพิวเตอร์ & นักพัฒนาฟูลสแตก (Full Stack)' }}
           </p>
           <h1 class="text-3xl sm:text-5xl md:text-6xl font-bold tracking-tight text-white leading-tight">
             {{ profileData.profile.name[currentLang] }}
@@ -26,12 +26,11 @@
 
           <!-- Quick Full-Stack Chips -->
           <div class="flex flex-wrap items-center gap-1.5 pt-1">
-            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-yellow-500/15 text-yellow-300 border border-yellow-500/30 font-semibold">Python</span>
-            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-orange-500/15 text-orange-300 border border-orange-500/30 font-semibold">RabbitMQ</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">Vue / Nuxt 4</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-cyan-500/15 text-cyan-300 border border-cyan-500/30">React</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-blue-500/15 text-blue-300 border border-blue-500/30">TypeScript</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">Node.js</span>
+            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-yellow-500/15 text-yellow-300 border border-yellow-500/30">Python</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-purple-500/15 text-purple-300 border border-purple-500/30">Laravel</span>
             <span class="text-[11px] font-mono px-2.5 py-0.5 rounded-md bg-amber-500/15 text-amber-300 border border-amber-500/30">MySQL / Oracle</span>
           </div>

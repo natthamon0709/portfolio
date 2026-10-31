@@ -38,8 +38,8 @@
         </h3>
         <p class="text-xs text-slate-400 font-mono leading-relaxed">
           {{ currentLang === 'en'
-            ? 'Sub-100ms latency, Python & Node.js microservices, RabbitMQ async queues, token auth lifecycle, and 99.9% uptime.'
-            : 'Latency ต่ำกว่า 100ms, โครงสร้าง Python & Node.js, คิวงาน RabbitMQ, จัดการ Auth Token และเสถียรภาพ 99.9%' }}
+            ? 'Sub-100ms latency, high-throughput Node.js & Laravel MVC, token auth lifecycle, and 99.9% uptime.'
+            : 'Latency ต่ำกว่า 100ms, โครงสร้าง Node.js & Laravel, จัดการ Auth Token และเสถียรภาพ 99.9%' }}
         </p>
       </div>
 

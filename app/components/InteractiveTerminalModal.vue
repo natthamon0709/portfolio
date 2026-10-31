@@ -156,30 +156,28 @@ const runCommand = (cmdText: string) => {
 │    • TypeScript, Tailwind CSS, Responsive Web Design        │
 ├─────────────────────────────────────────────────────────────┤
 │ 2. BACKEND & API SERVICES                                   │
-│    • Python (FastAPI/Flask), Node.js, Laravel Framework     │
-│    • Microservices Architecture, RabbitMQ Message Queues    │
+│    • Node.js & Express, Laravel Framework (MVC)             │
 │    • RESTful API Architecture, OpenAPI / Swagger Specs      │
-│    • Sub-100ms Latency, Token Auth, Asynchronous Workflows  │
+│    • Sub-100ms Latency, Token Authentication, Rate-Limiting │
 ├─────────────────────────────────────────────────────────────┤
 │ 3. DATABASE & PERSISTENCE TIER                              │
 │    • MySQL (Relational Modeling, Index Optimization)         │
 │    • Oracle Database (PL/SQL, Enterprise Stored Procedures) │
 ├─────────────────────────────────────────────────────────────┤
-│ 4. DEVOPS, TESTING & TELEMETRY                              │
-│    • GitLab CI/CD, Automated Testing (Unit/Load), Docker    │
-│    • Kubernetes Ecosystem Awareness, Vercel Edge Deploy     │
+│ 4. DEVOPS, HARDWARE & TELEMETRY                             │
+│    • GitLab CI/CD, Automated Testing, Vercel Edge Deploy    │
 │    • Modbus TCP PLC (16 DI/DO), Cognex Vision, ESP32 IoT    │
 └─────────────────────────────────────────────────────────────┘`
       break
 
     case 'skills':
       output = `FULL-STACK ENGINEERING COMPETENCIES:
-[Backend & Microservices]: Python (FastAPI/Flask), RabbitMQ Queues, Node.js, Laravel MVC, RESTful APIs
-[Frontend & Modern Web]:   Vue.js / Nuxt 4, React & Redux, TypeScript, Tailwind CSS, jQuery / DOM
-[Databases & Schemas]:     MySQL, Oracle Database (PL/SQL), Schema Normalization, Query Optimization
-[Languages]:               Python, TypeScript, JavaScript (ES6+), PHP, SQL, C/C++
-[DevOps & Quality]:        Docker, GitLab CI/CD Pipelines, Automated & Load Testing (PyTest/Postman), Git
-[Industrial & IoT]:        Modbus TCP PLC (16 DI/DO), Cognex Vision 2800, Keyence TCP, ESP32`
+[Frontend & Web]:    Vue.js / Nuxt 4, React & Redux, TypeScript, Tailwind CSS, State Management
+[Backend & APIs]:    RESTful APIs (Core Specialty), Node.js/Express, Laravel MVC, OpenAPI Specs, Postman
+[Databases]:         MySQL, Oracle Database (PL/SQL), Schema Normalization, Query Optimization
+[Core Languages]:    TypeScript, JavaScript (ES6+), PHP, Python, SQL, C/C++
+[DevOps / Deploy]:   GitLab CI/CD Pipelines, Git/GitHub, Docker, Vercel Deploy, Linux Server
+[Industrial & IoT]:  Modbus TCP & PLC Control (16 DI/DO), Cognex Vision 2800, Keyence TCP, ESP32`
       break
 
     case 'projects':
