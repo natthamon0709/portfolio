@@ -6,50 +6,66 @@
         <span>// 01. CAREER_TRACE & CAPABILITIES</span>
       </div>
       <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-        {{ currentLang === 'en' ? 'Engineering Experience & Impact' : 'ประสบการณ์ทำงาน & ศักยภาพทางวิศวกรรม' }}
+        {{ currentLang === 'en' ? 'Full-Stack Experience & Engineering Impact' : 'ประสบการณ์ทำงาน & ศักยภาพฟูลสแตก' }}
       </h2>
       <p class="text-slate-400 text-sm sm:text-base max-w-2xl">
         {{ currentLang === 'en'
-          ? 'Proven track record architecting mission-critical backend APIs, optimizing enterprise databases (MySQL/Oracle), and leading IoT systems from design to production.'
-          : 'เส้นทางการทำงานจริงที่พิสูจน์แล้ว ทั้งการออกแบบสถาปัตยกรรม RESTful API ระดับ Mission-Critical, การปรับแต่งฐานข้อมูลระดับองค์กร (MySQL/Oracle) และระบบ IoT ครบวงจร' }}
+          ? 'Proven track record delivering modern reactive frontends, architecting mission-critical backend APIs, optimizing enterprise databases (MySQL/Oracle), and leading industrial IoT systems.'
+          : 'เส้นทางการทำงานจริงที่พิสูจน์แล้ว ทั้งการพัฒนาฟรอนต์เอนด์สมัยใหม่, สถาปัตยกรรม RESTful API, การบริหารฐานข้อมูลระดับองค์กร (MySQL/Oracle) และระบบ IoT ครบวงจร' }}
       </p>
     </div>
 
-    <!-- 3 Core Engineering Pillars -->
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-12">
+    <!-- 4 Core Full-Stack Engineering Pillars -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+      <!-- Pillar 01: Modern Frontend -->
+      <div class="glass-card rounded-2xl p-5 border border-indigo-500/30 hover:border-indigo-500/60 transition-all">
+        <div class="text-xs font-mono text-indigo-400 font-bold mb-1">PILLAR 01</div>
+        <h3 class="text-base font-bold text-white mb-1.5">
+          {{ currentLang === 'en' ? 'Frontend & Modern Web' : 'ฟรอนต์เอนด์ & เว็บสมัยใหม่' }}
+        </h3>
+        <p class="text-xs text-slate-400 font-mono leading-relaxed">
+          {{ currentLang === 'en'
+            ? 'Vue 3 / Nuxt 4, React, Redux, TypeScript, Tailwind CSS, SSR, and responsive micro-interactions.'
+            : 'Vue 3 / Nuxt 4, React, Redux, TypeScript, Tailwind CSS, สถาปัตยกรรม SSR และเว็บเรสปอนซีฟ' }}
+        </p>
+      </div>
+
+      <!-- Pillar 02: RESTful APIs -->
       <div class="glass-card rounded-2xl p-5 border border-cyber-cyan/30 hover:border-cyber-cyan/60 transition-all">
-        <div class="text-xs font-mono text-cyber-cyan font-bold mb-1">PILLAR 01</div>
+        <div class="text-xs font-mono text-cyber-cyan font-bold mb-1">PILLAR 02</div>
         <h3 class="text-base font-bold text-white mb-1.5">
-          {{ currentLang === 'en' ? 'RESTful API & Microservices' : 'สถาปัตยกรรม API & ไมโครเซอร์วิส' }}
+          {{ currentLang === 'en' ? 'Backend & Microservices' : 'สถาปัตยกรรม API & แบ็กเอนด์' }}
         </h3>
         <p class="text-xs text-slate-400 font-mono leading-relaxed">
           {{ currentLang === 'en'
-            ? 'Sub-100ms latency, high-throughput token rotation, rate-limiting, and 99.9% uptime for mobile & web apps.'
-            : 'Latency ต่ำกว่า 100ms, จัดการ Token และ Rate-Limiting รองรับเว็บและโมบายล์ พร้อมเสถียรภาพ 99.9%' }}
+            ? 'Sub-100ms latency, Python & Node.js microservices, RabbitMQ async queues, token auth lifecycle, and 99.9% uptime.'
+            : 'Latency ต่ำกว่า 100ms, โครงสร้าง Python & Node.js, คิวงาน RabbitMQ, จัดการ Auth Token และเสถียรภาพ 99.9%' }}
         </p>
       </div>
 
+      <!-- Pillar 03: Enterprise SQL -->
       <div class="glass-card rounded-2xl p-5 border border-purple-500/30 hover:border-purple-500/60 transition-all">
-        <div class="text-xs font-mono text-purple-400 font-bold mb-1">PILLAR 02</div>
+        <div class="text-xs font-mono text-purple-400 font-bold mb-1">PILLAR 03</div>
         <h3 class="text-base font-bold text-white mb-1.5">
-          {{ currentLang === 'en' ? 'Enterprise SQL & Schemas' : 'ฐานข้อมูลองค์กร (MySQL & Oracle)' }}
+          {{ currentLang === 'en' ? 'Enterprise SQL & Schemas' : 'ฐานข้อมูลองค์กร (MySQL/Oracle)' }}
         </h3>
         <p class="text-xs text-slate-400 font-mono leading-relaxed">
           {{ currentLang === 'en'
-            ? 'Database normalization, B-Tree index optimization, stored procedures, and complex data migration.'
-            : 'การออกแบบ Normalization, ปรับแต่ง Index แก้ปัญหาคอขวด, เขียน Stored Procedure และไมเกรตข้อมูล' }}
+            ? 'Relational schema normalization, B-Tree index tuning, stored procedures, and complex data integrity.'
+            : 'การออกแบบ Normalization, ปรับแต่ง Index แก้ปัญหาคอขวด, Stored Procedure และธุรกรรมปลอดภัย' }}
         </p>
       </div>
 
+      <!-- Pillar 04: DevOps & IoT -->
       <div class="glass-card rounded-2xl p-5 border border-emerald-500/30 hover:border-emerald-500/60 transition-all">
-        <div class="text-xs font-mono text-emerald-400 font-bold mb-1">PILLAR 03</div>
+        <div class="text-xs font-mono text-emerald-400 font-bold mb-1">PILLAR 04</div>
         <h3 class="text-base font-bold text-white mb-1.5">
-          {{ currentLang === 'en' ? 'Industrial Automation & IoT Systems' : 'ระบบอัตโนมัติอุตสาหกรรม (PLC/HMI) & IoT' }}
+          {{ currentLang === 'en' ? 'DevOps, Cloud & IoT Systems' : 'DevOps & ระบบอัตโนมัติ IoT' }}
         </h3>
-        <p class="text-xs text-slate-300 font-mono leading-relaxed">
+        <p class="text-xs text-slate-400 font-mono leading-relaxed">
           {{ currentLang === 'en'
-            ? 'PLC Modbus TCP (16 DI/DO), Cognex Machine Vision, Keyence scanners, robot arm state machines, and SCG IoT.'
-            : 'ควบคุม PLC Modbus TCP, กล้อง Cognex Vision, เครื่องสแกน Keyence, วงจร State Machine แขนกล และระบบ IoT ของ SCG' }}
+            ? 'GitLab CI/CD automated pipelines, Nitro/Vercel edge deploy, Modbus TCP PLC, and Cognex Vision.'
+            : 'ไปป์ไลน์ GitLab CI/CD อัตโนมัติ, Nitro/Vercel Deploy, ควบคุม PLC Modbus TCP และระบบ Machine Vision' }}
         </p>
       </div>
     </div>

@@ -70,6 +70,7 @@ export interface SkillItem {
 }
 
 export interface SkillsGroup {
+  frontend: SkillItem[]
   languages: SkillItem[]
   backend: SkillItem[]
   database: SkillItem[]

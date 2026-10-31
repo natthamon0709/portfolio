@@ -10,27 +10,27 @@
     },
     "avatar": "/images/nut-profile.jpg",
     "role": {
-      "en": "Computer Engineer & Back-end Developer",
-      "th": "วิศวกรคอมพิวเตอร์ & นักพัฒนาแบ็กเอนด์"
+      "en": "Full-Stack Software Engineer (Backend & Python)",
+      "th": "วิศวกรซอฟต์แวร์ฟูลสแตก (Full-Stack & Backend Engineer)"
     },
     "badge": {
-      "en": "Available for Tech Opportunities",
-      "th": "พร้อมรับข้อเสนองานด้านวิศวกรรมซอฟต์แวร์"
+      "en": "Available for Full-Stack & Backend Roles",
+      "th": "พร้อมรับข้อเสนองาน Full-Stack & Backend Engineer"
     },
     "contact": {
       "email": "nutkosem@gmail.com",
       "phone": "099-564-9387",
       "location": {
-        "en": "Nonthaburi, Thailand",
-        "th": "นนทบุรี, ประเทศไทย"
+        "en": "Bangkok / Nonthaburi, Thailand",
+        "th": "กรุงเทพฯ / นนทบุรี, ประเทศไทย"
       },
       "address": "109/36 Bangrukpatthana, Bang Bua Thong, Nonthaburi 11110",
       "github": "https://github.com/natthamon0709/portfolio",
       "linkedin": "https://linkedin.com"
     },
     "bio": {
-      "en": "Computer engineer with proven capability in designing resilient backend architectures, high-throughput RESTful APIs, scalable relational databases (MySQL & Oracle), and IoT telemetry pipelines. Combines technical rigor across all testing phases (performance, functional, integration, system, UAT) with automated CI/CD and cross-functional leadership.",
-      "th": "วิศวกรคอมพิวเตอร์ผู้มีศักยภาพรอบด้าน เชี่ยวชาญการออกแบบสถาปัตยกรรมแบ็กเอนด์ที่มีเสถียรภาพสูง, RESTful API รองรับการทำงานพร้อมกันปริมาณมาก, การบริหารจัดการฐานข้อมูลระดับองค์กร (MySQL & Oracle) และระบบ IoT แบบเรียลไทม์ มีมาตรฐานการทดสอบระบบที่ครอบคลุมทุกระดับ (Performance, Functional, Integration, System, UAT) พร้อมประสบการณ์ขับเคลื่อน CI/CD อัตโนมัติและภาวะผู้นำที่พิสูจน์แล้ว"
+      "en": "Results-driven Full-Stack Software Engineer with 4+ years of experience engineering high-throughput microservices, robust backend architectures (Python, Node.js, PHP), and reactive modern web frontends (Vue/Nuxt, React, TypeScript). Specialized in architecting real-time APIs, asynchronous message queue workflows (RabbitMQ, batch workers), large-scale relational schemas (MySQL & Oracle), and automated test suites across the complete SDLC with Docker and CI/CD.",
+      "th": "วิศวกรซอฟต์แวร์ฟูลสแตก (Full-Stack Engineer) ประสบการณ์ 4+ ปี มีความเชี่ยวชาญการออกแบบสถาปัตยกรรม Microservices ฝั่งแบ็กเอนด์ (Python, Node.js, PHP), การประมวลผลแบบ Asynchronous & Message Queue (RabbitMQ, Background Workers), การพัฒนา RESTful API ประสิทธิภาพสูง, ฐานข้อมูลองค์กร (MySQL & Oracle) ควบคู่กับเว็บแอปพลิเคชันสมัยใหม่ (Vue/Nuxt, React, TypeScript) พร้อมมาตรฐานการทดสอบระบบอัตโนมัติและ CI/CD ตลอดวงจร SDLC"
     }
   },
   "stats": [
@@ -67,8 +67,8 @@
     {
       "company": "Rudy Technology",
       "role": {
-        "en": "Back-end Developer",
-        "th": "Back-end Developer (สถาปัตยกรรมแบ็กเอนด์ & ฐานข้อมูล)"
+        "en": "Full-Stack & Backend Software Engineer",
+        "th": "Full-Stack & Backend Software Engineer (วิศวกรซอฟต์แวร์ฟูลสแตก & แบ็กเอนด์)"
       },
       "period": "2022 - Present",
       "location": "Bangkok, Thailand",
@@ -79,23 +79,25 @@
       "color": "#06b6d4",
       "highlights": {
         "en": [
-          "Engineered high-throughput, mission-critical RESTful APIs serving thousands of concurrent web and mobile clients with sub-100ms latency",
-          "Architected complex relational database schemas in MySQL & Oracle, indexed query bottlenecks, and designed transactional stored procedures under strict MVC design patterns",
-          "Developed custom backend integration bridges connecting enterprise mobile CRM low-code applications with central database microservices",
-          "Owned and maintained end-to-end GitLab CI/CD pipelines, automating test execution, linting, Docker packaging, and zero-downtime server deployments",
-          "Authored industry-standard OpenAPI/Swagger specifications, establishing contract-first API development and comprehensive technical documentation for cross-functional teams",
-          "Conducted rigorous API security auditing, rate limiting, token authentication lifecycle, and maintained 99.9% API uptime in production environments"
+          "Architected and delivered scalable full-stack web solutions, seamlessly connecting modern reactive frontends (Vue/Nuxt, React) with high-throughput backend microservices (Python, Node.js, PHP/Laravel)",
+          "Engineered mission-critical real-time RESTful APIs, asynchronous message queue workflows (RabbitMQ), and batch workers for integrating external shopping, payment, and CRM platforms with sub-100ms latency",
+          "Designed robust business workflow engines managing order lifecycles, inventory synchronization states, and transactional consistency across distributed services",
+          "Modeled complex relational database schemas in MySQL & Oracle, indexed query bottlenecks, and implemented ACID-compliant transactional stored procedures",
+          "Developed automated testing suites (unit tests, functional API tests, and performance load testing) integrated into GitLab CI/CD to expand test coverage and system resilience",
+          "Collaborated with product owners and UI/UX designers to create quality mockups, interactive prototypes, and intuitive dashboards using modern CSS/JS frameworks",
+          "Containerized microservices using Docker for Kubernetes-ready deployments, established OpenAPI/Swagger specifications, and maintained 99.9% production API uptime"
         ],
         "th": [
-          "ออกแบบและพัฒนา RESTful API แกนกลางระดับ Mission-Critical รองรับการทำงานพร้อมกันของเว็บและโมบายล์แอปพลิเคชัน พร้อมคุม Latency ให้รวดเร็วต่ำกว่า 100ms",
-          "วิเคราะห์และวางโครงสร้างฐานข้อมูลองค์กร (MySQL & Oracle), เขียน Query ซับซ้อน, ทำ Indexing และ Stored Procedure ภายใต้สถาปัตยกรรม MVC ที่ถูกต้องตามหลักวิศวกรรม",
-          "พัฒนาระบบ Integration เชื่อมต่อระหว่าง Mobile CRM แอปพลิเคชัน Low-Code กับฐานข้อมูลและ Microservices ส่วนกลางได้อย่างไร้รอยต่อ",
-          "วางระบบและดูแล GitLab CI/CD Pipeline อัตโนมัติตั้งแต่การรัน Test, ตรวจสอบ Code Quality ไปจนถึงการ Deploy งานขึ้น Production Server อย่างราบรื่น",
-          "จัดทำเอกสารข้อกำหนดทางเทคนิค API Documentation และ OpenAPI/Swagger Specs เพื่อกำหนดมาตรฐานการทำงานร่วมกันระหว่างทีมฟรอนต์เอนด์และโมบายล์",
-          "ดูแลความปลอดภัยของระบบ API (Authentication, Rate-Limiting, Token Rotation) และรักษาเสถียรภาพระบบให้ทำงานได้ต่อเนื่อง 99.9% Uptime"
+          "ออกแบบและพัฒนาสถาปัตยกรรม Full-Stack และ Microservices ขนาดใหญ่ เชื่อมต่อส่วนหน้าเว็บสมัยใหม่ (Vue/Nuxt, React) เข้ากับบริการแบ็กเอนด์ (Python, Node.js, PHP/Laravel) รองรับการขยายตัว",
+          "พัฒนา Real-time RESTful API, ระบบประมวลผล Asynchronous ผ่าน Message Broker (RabbitMQ) และ Batch Jobs เพื่อเชื่อมต่อข้อมูลกับระบบภายนอกทั้ง e-commerce, payment และ CRM อย่างรวดเร็ว (Latency ต่ำกว่า 100ms)",
+          "ออกแบบระบบบริหารจัดการ Workflow สำหรับ Order lifecycle, การซิงก์สต็อกสินค้า (Inventory) และควบคุมความถูกต้องของธุรกรรม (Data Consistency) ในระบบ Microservices",
+          "วิเคราะห์และวางโครงสร้างฐานข้อมูลความสัมพันธ์ระดับองค์กร (MySQL & Oracle), เขียน Query ซับซ้อน, ทำ Indexing และ Stored Procedure รองรับทราฟฟิกสูง",
+          "สร้างชุดทดสอบอัตโนมัติ (Unit Testing, Automated Functional Testing และ Load Testing) ผสานเข้ากับ GitLab CI/CD Pipeline เพื่อขยาย Test Coverage และการันตีความเสถียรของระบบ",
+          "ทำงานร่วมกับทีม Product และ UI/UX Designer ในการสร้าง Mockup, Prototype ต้นแบบ และพัฒนาแดชบอร์ดที่ใช้งานง่ายด้วย JavaScript/TypeScript, CSS และโมเดิร์นเฟรมเวิร์ก",
+          "ทำ Containerization ด้วย Docker สำหรับการ Deploy บนระบบ Cloud/Kubernetes จัดทำ OpenAPI/Swagger Specs และดูแลระบบให้มีความพร้อมใช้งาน 99.9% Uptime"
         ]
       },
-      "skills": ["Node.js", "PHP", "Laravel", "MySQL", "Oracle DB", "RESTful API", "GitLab CI/CD", "Postman", "MVC Architecture", "OpenAPI Spec"]
+      "skills": ["Python", "Microservices", "RabbitMQ", "RESTful API", "Vue.js", "TypeScript", "Node.js", "PHP (Laravel)", "MySQL", "Oracle DB", "Automated Testing", "Docker & CI/CD", "OpenAPI Spec"]
     },
     {
       "company": "Freelance Industrial Automation",
@@ -134,8 +136,8 @@
       "company": "So-at Solution",
       "period": "2021",
       "role": {
-        "en": "Software Engineer Intern (Co-operative Training)",
-        "th": "วิศวกรซอฟต์แวร์ฝึกงาน (สหกิจศึกษา)"
+        "en": "Software Engineer Intern (Full-Stack & Web Services)",
+        "th": "วิศวกรซอฟต์แวร์ฝึกงาน (สหกิจศึกษา - ฟูลสแตก & เว็บเซอร์วิส)"
       },
       "location": "Bangkok, Thailand",
       "type": {
@@ -148,7 +150,7 @@
           "Diagnosed and resolved critical web service incidents, identifying root causes across database locks and network timeouts to restore operational integrity",
           "Implemented complex SQL functions, stored procedures, and backend controllers adhering to strict MVC web standards",
           "Created exhaustive Postman test suites and collection runners to validate API contracts between staging and production environments",
-          "Collaborated closely with UX designers to translate complex data schemas into intuitive web interfaces for corporate users"
+          "Collaborated closely with UX designers to translate complex data schemas into intuitive responsive web interfaces for corporate users"
         ],
         "th": [
           "วิเคราะห์และแก้ไขปัญหาเว็บเซอร์วิสวิกฤต (Web Service Incident Resolution) สืบหาต้นตอ Database Lock และ Timeout แก้ไขจนระบบกลับมาทำงานได้อย่างสมบูรณ์",
@@ -157,7 +159,7 @@
           "ร่วมมือกับทีมออกแบบเพื่อแปลงโครงสร้างข้อมูลที่ซับซ้อนให้ออกมาเป็น UI/UX หน้าจอการทำงานของระบบองค์กรที่ใช้งานง่ายและคล่องตัว"
         ]
       },
-      "skills": ["PHP", "SQL", "MVC", "Postman", "Web Services", "Incident Resolution", "UI/UX", "JavaScript"]
+      "skills": ["PHP", "JavaScript", "SQL", "MVC", "Postman", "Web Services", "UI/UX", "Responsive CSS"]
     },
     {
       "company": "SCG (Siam Cement Group), Bang Sue",
@@ -188,6 +190,46 @@
     }
   ],
   "projects": [
+    {
+      "id": "nuxt-modern-portfolio",
+      "year": "2025",
+      "category": "fullstack",
+      "title": {
+        "en": "Modern Full-Stack Engineering Portfolio & Interactive CLI",
+        "th": "ระบบพอร์ตโฟลิโอวิศวกรรมฟูลสแตก & CLI Terminal (Nuxt 4 & Nitro)"
+      },
+      "description": {
+        "en": "Production-grade bilingual full-stack web application built with Nuxt 4, Vue 3 Composition API, TypeScript, Tailwind CSS, real-time particle constellation canvas, interactive developer terminal modal, and serverless edge deployment on Nitro/Vercel.",
+        "th": "เว็บแอปพลิเคชันฟูลสแตกแบบสองภาษา พัฒนาด้วย Nuxt 4, Vue 3 Composition API, TypeScript และ Tailwind CSS มาพร้อมระบบจำลองเทอร์มินัล CLI, 3D Bento Card Tilt, Particle Canvas แบบเรียลไทม์ และระบบดีพลอยแบบ Serverless Edge"
+      },
+      "tags": [
+        "Nuxt 4",
+        "Vue 3",
+        "TypeScript",
+        "Tailwind CSS",
+        "Nitro Serverless",
+        "Interactive CLI",
+        "Full Stack Web"
+      ],
+      "featured": true,
+      "stats": "Nuxt 4 & Serverless Edge Architecture",
+      "highlights": {
+        "en": [
+          "Architected modern SSR / Static full-stack structure leveraging Nuxt 4 future layout and Nitro server engine",
+          "Integrated real-time interactive bash-like CLI terminal emulator with command parser and status inspection",
+          "Implemented responsive 3D perspective tilt cards with hardware-accelerated CSS transforms and modern native dialogs",
+          "Engineered reactive bilingual i18n composable for zero-dependency instant language switching",
+          "Hardened security headers including nosniff, strict-origin-when-cross-origin, frame protection and scoped CSP"
+        ],
+        "th": [
+          "ออกแบบสถาปัตยกรรม SSR / Static แบบ Full-Stack ด้วย Nuxt 4 และ Nitro Server Engine ที่รองรับ Serverless Deployment",
+          "พัฒนาระบบ Terminal CLI จำลองในตัวเว็บ มี Command Parser ตรวจสอบข้อมูลผู้สมัครและโครงงานแบบโต้ตอบ",
+          "ทำเอฟเฟกต์การเอียงแบบ 3D Card Tilt ผ่านการคำนวณพิกัดเมาส์ ร่วมกับ Native Dialog ตามมาตรฐาน Modern Web",
+          "สร้าง Composable จัดการสองภาษา (EN/TH) ที่สลับได้ทันทีโดยไม่ต้องโหลด Library ภายนอก",
+          "ตั้งค่าความปลอดภัยระดับ Production ผ่าน Security Headers (Nosniff, Frame Options, Referrer Policy)"
+        ]
+      }
+    },
     {
       "id": "vbx-dispensing-system",
       "year": "2024",
@@ -260,16 +302,16 @@
       "year": "2023",
       "category": "backend",
       "title": {
-        "en": "3rd-Party Mobile API Integration Gateway",
-        "th": "เกตเวย์เชื่อมต่อ API บุคคลที่สามสำหรับโมบายล์"
+        "en": "Real-time External API & Message Broker Gateway",
+        "th": "เกตเวย์เชื่อมต่อ API ภายนอกและ Message Broker แบบเรียลไทม์"
       },
       "description": {
-        "en": "High-throughput API proxy layer orchestrating multiple third-party vendor APIs, handling caching, token rotation, and rate-limiting for mobile clients.",
-        "th": "ระบบเกตเวย์เชื่อมต่อ API บุคคลที่สามสำหรับแอพมือถือ มีระบบจัดการ Caching, Token Rotation และ Rate-Limiting เพื่อรองรับผู้ใช้งานจำนวนมาก"
+        "en": "High-throughput API gateway and event integration layer connecting external services with asynchronous message queues (RabbitMQ), batch processing, token rotation, and rate-limiting for high-concurrency clients.",
+        "th": "ระบบเกตเวย์เชื่อมต่อ API ภายนอกและจัดการ Event เชื่อมต่อบริการภายนอก พร้อมระบบคิวข้อความ Asynchronous (RabbitMQ), การประมวลผล Batch, Token Rotation และ Rate-Limiting สำหรับระบบที่มีผู้ใช้งานสูง"
       },
-      "tags": ["Node.js", "RESTful API", "Security", "Microservices"],
+      "tags": ["Python", "RabbitMQ", "Node.js", "RESTful API", "Microservices", "Batch Jobs"],
       "featured": true,
-      "stats": "High Throughput Proxy"
+      "stats": "High Throughput & Async Queues"
     },
     {
       "id": "smart-farm-machine-telemetry",
@@ -299,8 +341,8 @@
         "en": "Built a rapid enterprise CRM mobile application using modern low-code frameworks coupled with custom backend API microservices.",
         "th": "พัฒนาแอพพลิเคชัน CRM องค์กรบนมือถือด้วยเทคโนโลยี Low-Code ร่วมกับการพัฒนา Custom Backend API เพื่อการประมวลผลข้อมูลที่ยืดหยุ่น"
       },
-      "tags": ["Mobile Apps", "CRM", "Low-Code", "REST API", "Database"],
-      "featured": false,
+      "tags": ["Full Stack", "Mobile Apps", "CRM", "Low-Code", "REST API", "Database"],
+      "featured": true,
       "stats": "Enterprise CRM Deployment"
     },
     {
@@ -308,16 +350,16 @@
       "year": "2022",
       "category": "backend",
       "title": {
-        "en": "Unified Core RESTful API Platform",
-        "th": "สถาปัตยกรรมแกนกลาง RESTful API สำหรับเว็บและโมบายล์"
+        "en": "Unified Core Microservices Platform (Order & Workflow Engine)",
+        "th": "สถาปัตยกรรม Microservices แกนกลาง (Order & Workflow Engine)"
       },
       "description": {
-        "en": "Engineered core backend service endpoints with robust auth, transaction handling, and schema validation serving multi-client web and mobile apps.",
-        "th": "ออกแบบและพัฒนา API แกนกลาง รองรับ Authentication, Data Validation, Transaction Management และเชื่อมโยงฐานข้อมูล MySQL"
+        "en": "Engineered core backend microservices handling order lifecycles, inventory sync state machines, ACID transaction management, and automated unit/load testing across multi-client web and mobile environments.",
+        "th": "ออกแบบและพัฒนา Microservices แกนกลาง รองรับวงจร Order lifecycle, ระบบ State Machine ซิงก์สต็อกสินค้า (Inventory), Transaction Management และชุดทดสอบ Unit/Load Testing"
       },
-      "tags": ["Node.js", "Laravel", "MySQL", "Postman", "CI/CD"],
+      "tags": ["Python", "Node.js", "Laravel", "MySQL", "Automated Testing", "CI/CD"],
       "featured": true,
-      "stats": "Multi-Tenant Scalability"
+      "stats": "High-Concurrency Workflows"
     },
     {
       "id": "crm-react-redux",
@@ -331,8 +373,8 @@
         "en": "Interactive business CRM web application with React, Redux state management, React Hook Form validation, custom CSS layout, and backend SQL API.",
         "th": "เว็บแอปพลิเคชัน CRM ภาคธุรกิจ พัฒนาด้วย React, Redux จัดการ State, React Hook Form ตรวจสอบข้อมูล และเชื่อมต่อฐานข้อมูล SQL"
       },
-      "tags": ["React", "Redux", "React Hook Form", "CSS", "SQL API"],
-      "featured": false,
+      "tags": ["Full Stack", "React", "Redux", "TypeScript", "React Hook Form", "CSS", "SQL API"],
+      "featured": true,
       "stats": "Modern React Architecture"
     },
     {
@@ -449,35 +491,61 @@
     }
   ],
   "skills": {
+    "frontend": [
+      {
+        "name": "Vue.js & Nuxt 4",
+        "badge": { "en": "Modern SSR", "th": "SSR สมัยใหม่" },
+        "detail": { "en": "Vue 3 Composition API, Nuxt 4, Nitro Edge, Reactive State", "th": "Vue 3 Composition API, Nuxt 4, Nitro Engine, สถานะแบบ Reactive" },
+        "highlight": true
+      },
+      {
+        "name": "React & Redux",
+        "badge": { "en": "SPA Architecture", "th": "สถาปัตยกรรม SPA" },
+        "detail": { "en": "Component Lifecycle, Hooks, Redux Store, React Hook Form", "th": "Component Lifecycle, Custom Hooks, Redux Store, ตรวจสอบข้อมูลฟอร์ม" },
+        "highlight": true
+      },
+      {
+        "name": "TypeScript & Modern JS / jQuery",
+        "badge": { "en": "Type Safety & DOM", "th": "ปลอดภัยด้าน Type & DOM" },
+        "detail": { "en": "Strict Typing, Shared DTO, ES6+ Async/Await, jQuery DOM manipulation", "th": "ระบบ Type ปลอดภัย, Shared DTO, ES6+ Async/Await, จัดการ DOM และ jQuery" },
+        "highlight": true
+      },
+      {
+        "name": "Tailwind CSS & UI/UX",
+        "badge": { "en": "Responsive Design", "th": "ดีไซน์เรสปอนซีฟ" },
+        "detail": { "en": "Glassmorphism, Responsive Grids, Micro-interactions, Accessibility", "th": "Glassmorphism, เลย์เอาต์ Grid/Flex, อนิเมชัน, การเข้าถึงที่ได้มาตรฐาน" },
+        "highlight": true
+      },
+      {
+        "name": "State Management & Web APIs",
+        "badge": { "en": "Client Architecture", "th": "สถาปัตยกรรมฝั่งไคลเอนต์" },
+        "detail": { "en": "Pinia / Redux, REST Client Integration, WebSockets Sync", "th": "Pinia / Redux, เชื่อมโยง REST API, WebSockets ซิงก์ข้อมูลสด" },
+        "highlight": true
+      }
+    ],
     "languages": [
       {
-        "name": "PHP",
-        "badge": { "en": "Core Backend", "th": "ภาษาหลักแบ็กเอนด์" },
-        "detail": { "en": "Laravel, MVC Web, Enterprise REST APIs", "th": "Laravel, โครงสร้าง MVC, REST API ระดับองค์กร" },
-        "highlight": true
-      },
-      {
         "name": "Python",
-        "badge": { "en": "AI & Automation", "th": "AI & ระบบอัตโนมัติ" },
-        "detail": { "en": "OpenCV Vision, NLP Text Models, Online Web", "th": "OpenCV วิทัศน์, NLP ประมวลภาษา, เว็บเซอร์วิส" },
+        "badge": { "en": "Core Backend & AI", "th": "ภาษาหลักแบ็กเอนด์ & AI" },
+        "detail": { "en": "FastAPI, Flask, Microservices, Async I/O, Automation, PyTest", "th": "FastAPI, Flask, ไมโครเซอร์วิส, Asynchronous I/O, สคริปต์อัตโนมัติ, PyTest" },
         "highlight": true
       },
       {
-        "name": "JavaScript (ES6+)",
-        "badge": { "en": "Fullstack", "th": "ฟูลสแตก" },
-        "detail": { "en": "Node.js, Express, Async I/O, Frontend", "th": "Node.js, Express, Async I/O, ฟรอนต์เอนด์" },
+        "name": "JavaScript (ES6+) & TypeScript",
+        "badge": { "en": "Fullstack Web", "th": "ฟูลสแตกเว็บ" },
+        "detail": { "en": "Node.js, Express, TypeScript DTOs, jQuery, Async/Await", "th": "Node.js, Express, TypeScript, jQuery, Async I/O ฝั่งเว็บ" },
         "highlight": true
       },
       {
-        "name": "TypeScript",
-        "badge": { "en": "Type-Safe", "th": "ปลอดภัยด้าน Type" },
-        "detail": { "en": "Strict Typing, Modern Scalable Architecture", "th": "ระบบ Type ปลอดภัย, สถาปัตยกรรมขยายตัวได้" },
+        "name": "PHP",
+        "badge": { "en": "Enterprise Backend", "th": "ภาษาแบ็กเอนด์องค์กร" },
+        "detail": { "en": "Laravel, MVC Web, Enterprise REST APIs", "th": "Laravel, โครงสร้าง MVC, REST API ระดับองค์กร" },
         "highlight": true
       },
       {
         "name": "SQL (MySQL / Oracle)",
         "badge": { "en": "Database", "th": "ฐานข้อมูล" },
-        "detail": { "en": "Complex Queries, Stored Procedures, Indexing", "th": "Query ซับซ้อน, Stored Procedure, ดัชนีค้นหา" },
+        "detail": { "en": "Complex Queries, Stored Procedures, Indexing, Transactions", "th": "Query ซับซ้อน, Stored Procedure, ดัชนีค้นหา, จัดการ Transaction" },
         "highlight": true
       },
       {
@@ -495,34 +563,40 @@
     ],
     "backend": [
       {
-        "name": "RESTful API Architecture",
-        "badge": { "en": "Core Specialty", "th": "ความเชี่ยวชาญหลัก" },
-        "detail": { "en": "Full Auth, High Throughput, Postman Tested", "th": "ระบบสิทธิ์ครบถ้วน, ทราฟฟิกสูง, ทดสอบด้วย Postman" },
+        "name": "Python & Microservices Architecture",
+        "badge": { "en": "Core Backend", "th": "ความเชี่ยวชาญหลัก" },
+        "detail": { "en": "FastAPI, Flask, High-Throughput RESTful APIs, Distributed Services", "th": "FastAPI, Flask, RESTful API ประสิทธิภาพสูง, สถาปัตยกรรม Microservices" },
         "highlight": true
       },
       {
-        "name": "Node.js & Express",
-        "badge": { "en": "Production", "th": "ใช้งานจริง" },
-        "detail": { "en": "API Gateways, Microservices, Event Loops", "th": "API Gateway, ไมโครเซอร์วิส, Event Loop" },
+        "name": "Message Broker & Async Queue (RabbitMQ)",
+        "badge": { "en": "Event-Driven", "th": "สถาปัตยกรรมคิวงาน" },
+        "detail": { "en": "RabbitMQ, Event-driven flows, Background Workers & Batch Data Pipelines", "th": "RabbitMQ, สถาปัตยกรรม Event-driven, Background Workers & Batch Pipelines" },
         "highlight": true
       },
       {
-        "name": "Laravel Framework",
-        "badge": { "en": "Enterprise", "th": "ระบบองค์กร" },
-        "detail": { "en": "Robust MVC, ORM Relationships, Job Queues", "th": "สถาปัตยกรรม MVC, ORM จัดการตาราง, ระบบคิวงาน" },
+        "name": "RESTful API & External System Integrations",
+        "badge": { "en": "Real-time & Batch", "th": "เรียลไทม์ & แบตช์" },
+        "detail": { "en": "High Throughput, E-Commerce & CRM Integration, Sub-100ms Latency", "th": "ทราฟฟิกสูง, เชื่อมต่อระบบ E-Commerce & CRM, Latency ต่ำกว่า 100ms" },
         "highlight": true
       },
       {
-        "name": "API Documentation & Specs",
+        "name": "Node.js & Laravel MVC",
+        "badge": { "en": "Enterprise Stack", "th": "สแตกองค์กร" },
+        "detail": { "en": "Express, Laravel MVC, ORM Relationships, Mission-Critical Backends", "th": "Express, โครงสร้าง Laravel MVC, ORM จัดการตาราง, แบ็กเอนด์ระดับองค์กร" },
+        "highlight": true
+      },
+      {
+        "name": "Automated Testing & Load Testing",
+        "badge": { "en": "SDLC & QA", "th": "ทดสอบอัตโนมัติ & SDLC" },
+        "detail": { "en": "Unit Testing, Automated Functional QA, Postman, PyTest, Load Testing", "th": "Unit Test, Automated Functional QA, Postman, PyTest, ทดสอบโหลดประสิทธิภาพ" },
+        "highlight": true
+      },
+      {
+        "name": "API Documentation & Specifications",
         "badge": { "en": "Standards", "th": "มาตรฐานสากล" },
-        "detail": { "en": "OpenAPI / Swagger Specs, Contract First", "th": "จัดทำเอกสาร OpenAPI / Swagger Spec ชัดเจน" },
-        "highlight": true
-      },
-      {
-        "name": "Postman API Testing",
-        "badge": { "en": "Testing & QA", "th": "การทดสอบ & QA" },
-        "detail": { "en": "Automated Test Suites, Environment Staging", "th": "ชุดทดสอบอัตโนมัติ, ตรวจสอบระหว่างเซิร์ฟเวอร์" },
-        "highlight": true
+        "detail": { "en": "OpenAPI / Swagger Specs, Contract-First Development", "th": "จัดทำเอกสาร OpenAPI / Swagger Spec ชัดเจน" },
+        "highlight": false
       }
     ],
     "database": [
@@ -553,27 +627,27 @@
     ],
     "devops": [
       {
-        "name": "GitLab CI/CD",
+        "name": "GitLab CI/CD & Automated Testing",
         "badge": { "en": "Automated Pipeline", "th": "ไปป์ไลน์อัตโนมัติ" },
-        "detail": { "en": "Build Pipelines, Automated Testing, Server Deploy", "th": "ไปป์ไลน์บิลด์อัตโนมัติ, รันทดสอบ, ปล่อยขึ้น Server" },
+        "detail": { "en": "Build Pipelines, Automated Test Execution (Unit/Functional), Zero-Downtime Deploy", "th": "ไปป์ไลน์บิลด์อัตโนมัติ, รันทดสอบอัตโนมัติ, ปล่อยขึ้น Server ราบรื่น" },
         "highlight": true
       },
       {
-        "name": "Git & GitHub",
+        "name": "Docker & Kubernetes Ecosystem",
+        "badge": { "en": "Containerization", "th": "คอนเทนเนอร์ & K8s" },
+        "detail": { "en": "Multi-stage Docker builds, Container Orchestration, Cloud-Native K8s concepts", "th": "สร้าง Docker Image, Multi-stage build, พื้นฐานระบบ Kubernetes บนคลาวด์" },
+        "highlight": true
+      },
+      {
+        "name": "Git & GitHub / GitLab",
         "badge": { "en": "Version Control", "th": "ควบคุมเวอร์ชัน" },
-        "detail": { "en": "Branching Strategies, Merge Reviews, Monorepo", "th": "การจัดการ Branch, การ Review โค้ดอย่างมีระบบ" },
+        "detail": { "en": "Branching Strategies, Merge Reviews, Agile SDLC Practices", "th": "การจัดการ Branch, การ Review โค้ดอย่างมีระบบตามแนวทาง Agile" },
         "highlight": true
       },
       {
-        "name": "Vercel & Nitro Deploy",
-        "badge": { "en": "Cloud Serverless", "th": "คลาวด์ Serverless" },
-        "detail": { "en": "Edge Network, Zero-Config Serverless Functions", "th": "เน็ตเวิร์ก Edge, เซิร์ฟเวอร์เลสประมวลผลฉับไว" },
-        "highlight": true
-      },
-      {
-        "name": "Linux Server Ops",
-        "badge": { "en": "Infrastructure", "th": "โครงสร้างเซิร์ฟเวอร์" },
-        "detail": { "en": "Bash CLI, Process Managers, Service Monitoring", "th": "คำสั่ง Bash CLI, ควบคุมโพรเซส, มอนิเตอร์เซอร์วิส" },
+        "name": "Cloud & Linux Server Ops",
+        "badge": { "en": "Infrastructure", "th": "โครงสร้างคลาวด์" },
+        "detail": { "en": "Vercel Serverless, Linux Bash CLI, Service Monitoring & 99.9% Uptime", "th": "Vercel Serverless, คำสั่ง Bash CLI, มอนิเตอร์เซอร์วิส และเสถียรภาพ 99.9%" },
         "highlight": false
       }
     ],

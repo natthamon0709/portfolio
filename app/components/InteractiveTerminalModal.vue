@@ -95,11 +95,11 @@ const outputAreaRef = ref<HTMLElement | null>(null)
 const inputRef = ref<HTMLInputElement | null>(null)
 const inputCommand = ref('')
 
-const quickCommands = ['help', 'skills', 'projects', 'freelance', 'experience', 'education', 'contact', 'clear']
+const quickCommands = ['help', 'skills', 'stack', 'projects', 'freelance', 'experience', 'education', 'contact', 'clear']
 
 const history = ref<LogEntry[]>([
   {
-    output: "System initialized. Computer Engineer profile loaded.\nRun 'help' to explore."
+    output: "System initialized. Computer Engineer & Full-Stack Developer profile loaded.\nRun 'help' or 'stack' to explore."
   }
 ])
 
@@ -134,7 +134,8 @@ const runCommand = (cmdText: string) => {
   switch (cmd) {
     case 'help':
       output = `Available CLI Commands:
-  • skills       - List backend, database, language, and industrial IoT competencies
+  • stack        - View full-stack engineering layers & architecture
+  • skills       - List frontend, backend, database, devops, and IoT competencies
   • projects     - Summarize 15+ key production projects & architectural highlights
   • freelance    - Inspect VBX_APUST Industrial Dispensing Control HMI System
   • experience   - View corporate & freelance experience (Rudy Tech, Freelance, SCG)
@@ -145,25 +146,53 @@ const runCommand = (cmdText: string) => {
   • exit         - Close this terminal modal`
       break
 
+    case 'stack':
+    case 'fullstack':
+      output = `FULL-STACK ARCHITECTURE OVERVIEW:
+┌─────────────────────────────────────────────────────────────┐
+│ 1. FRONTEND / CLIENT TIER                                   │
+│    • Vue 3 / Nuxt 4 (SSR, Composition API, Nitro Engine)    │
+│    • React, Redux State, React Hook Form                    │
+│    • TypeScript, Tailwind CSS, Responsive Web Design        │
+├─────────────────────────────────────────────────────────────┤
+│ 2. BACKEND & API SERVICES                                   │
+│    • Python (FastAPI/Flask), Node.js, Laravel Framework     │
+│    • Microservices Architecture, RabbitMQ Message Queues    │
+│    • RESTful API Architecture, OpenAPI / Swagger Specs      │
+│    • Sub-100ms Latency, Token Auth, Asynchronous Workflows  │
+├─────────────────────────────────────────────────────────────┤
+│ 3. DATABASE & PERSISTENCE TIER                              │
+│    • MySQL (Relational Modeling, Index Optimization)         │
+│    • Oracle Database (PL/SQL, Enterprise Stored Procedures) │
+├─────────────────────────────────────────────────────────────┤
+│ 4. DEVOPS, TESTING & TELEMETRY                              │
+│    • GitLab CI/CD, Automated Testing (Unit/Load), Docker    │
+│    • Kubernetes Ecosystem Awareness, Vercel Edge Deploy     │
+│    • Modbus TCP PLC (16 DI/DO), Cognex Vision, ESP32 IoT    │
+└─────────────────────────────────────────────────────────────┘`
+      break
+
     case 'skills':
-      output = `ENGINEERING COMPETENCIES:
-[Backend & APIs]:   RESTful APIs (Core Specialty), Node.js/Express, Laravel MVC, OpenAPI Specs, Postman
-[Databases]:        MySQL, Oracle Database (PL/SQL), Schema Normalization, Query Optimization
-[Industrial & IoT]: Modbus TCP & PLC Control (16 DI/DO), Cognex Vision 2800, Keyence TCP Sockets, ESP32
-[Languages]:        PHP, Python (OpenCV/NLP), JavaScript (ES6+), TypeScript, SQL, C/C++
-[DevOps / CI-CD]:   GitLab CI/CD Pipelines, Git/GitHub, Vercel & Nitro Deploy, Linux Server`
+      output = `FULL-STACK ENGINEERING COMPETENCIES:
+[Backend & Microservices]: Python (FastAPI/Flask), RabbitMQ Queues, Node.js, Laravel MVC, RESTful APIs
+[Frontend & Modern Web]:   Vue.js / Nuxt 4, React & Redux, TypeScript, Tailwind CSS, jQuery / DOM
+[Databases & Schemas]:     MySQL, Oracle Database (PL/SQL), Schema Normalization, Query Optimization
+[Languages]:               Python, TypeScript, JavaScript (ES6+), PHP, SQL, C/C++
+[DevOps & Quality]:        Docker, GitLab CI/CD Pipelines, Automated & Load Testing (PyTest/Postman), Git
+[Industrial & IoT]:        Modbus TCP PLC (16 DI/DO), Cognex Vision 2800, Keyence TCP, ESP32`
       break
 
     case 'projects':
       output = `FEATURED PROJECTS (15 Total):
-1. [2024 Freelance] VBX_APUST Industrial Dispensing Control HMI (Modbus TCP/Cognex Vision/Robot)
-2. [2023 AI]        AI Visual Similarity Matching Engine (Cosine Vector)
-3. [2023 Backend]   3rd-Party Mobile API Integration Gateway
-4. [2023 IoT]       Smart Farm Industrial Machine Sensor Telemetry
-5. [2022 Full]      Enterprise Mobile CRM Low-Code Application
-6. [2022 Backend]   Unified Core RESTful API Platform (Node.js/Laravel/MySQL)
-7. [2021 Full]      Web CRM Platform (React, Redux, React Hook Form)
-8. [2020 IoT]       Smart Home Controller (React Native + Cloud Hub)
+1. [2025 Full Stack] Nuxt 4 Modern Engineering Portfolio (Vue 3/TS/Tailwind/Nitro)
+2. [2024 Freelance]  VBX_APUST Industrial Dispensing Control HMI (Modbus TCP/Cognex Vision/Robot)
+3. [2023 AI]         AI Visual Similarity Matching Engine (Cosine Vector)
+4. [2023 Backend]    3rd-Party Mobile API Integration Gateway
+5. [2023 IoT]        Smart Farm Industrial Machine Sensor Telemetry
+6. [2022 Full Stack] Enterprise Mobile CRM Low-Code Application
+7. [2022 Backend]    Unified Core RESTful API Platform (Node.js/Laravel/MySQL)
+8. [2021 Full Stack] Web CRM Platform (React, Redux, React Hook Form, SQL API)
+9. [2020 IoT]        Smart Home Controller (React Native + Cloud Hub)
 ...and 7 more in the Projects Bento grid.`
       break
 
@@ -183,11 +212,11 @@ Architecture:
 
     case 'experience':
       output = `CAREER TRACE:
-1. Rudy Technology (2022 - Present) | Back-end Developer
-   - RESTful APIs, complex SQL/MVC, mobile CRM low-code bridges, GitLab CI/CD, API specs.
+1. Rudy Technology (2022 - Present) | Full-Stack & Back-end Developer
+   - Full-stack web solutions, RESTful APIs, complex SQL/MVC, GitLab CI/CD, OpenAPI specs.
 2. Freelance Industrial Automation (2023 - 2024) | Industrial Automation & HMI Engineer
    - VBX_APUST dispensing system, PLC Modbus TCP (16 DI/DO), Cognex Vision inspection, Keyence TCP.
-3. So-at Solution (2021) | Software Engineer Intern
+3. So-at Solution (2021) | Software Engineer Intern (Full-Stack & Web Services)
    - Web service incident resolution, SQL stored procedures, MVC web, Postman API validation.
 4. SCG, Bang Sue (2020) | Engineering Intern
    - Enterprise database optimization, IoT hardware/software monitoring, UI design.`

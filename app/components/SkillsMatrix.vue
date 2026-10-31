@@ -6,18 +6,53 @@
         <span>// 03. TECH_STACK</span>
       </div>
       <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
-        {{ currentLang === 'en' ? 'Core Engineering Competencies' : 'ทักษะและความเชี่ยวชาญทางวิศวกรรม' }}
+        {{ currentLang === 'en' ? 'Full-Stack & Engineering Competencies' : 'ทักษะและความเชี่ยวชาญฟูลสแตก & วิศวกรรม' }}
       </h2>
       <p class="text-slate-400 text-sm sm:text-base max-w-xl">
         {{ currentLang === 'en'
-          ? 'Production-tested technologies, architectural patterns, and real-world system competencies.'
-          : 'เทคโนโลยี สถาปัตยกรรม และทักษะระบบที่ผ่านการใช้งานจริงในงานโปรดักชัน' }}
+          ? 'Production-tested technologies across frontend, backend, databases, DevOps, and real-world industrial IoT.'
+          : 'เทคโนโลยี สถาปัตยกรรม และทักษะระบบที่ผ่านการใช้งานจริง ครบทั้งฟรอนต์เอนด์, แบ็กเอนด์, ฐานข้อมูล, DevOps และ IoT' }}
       </p>
     </div>
 
-    <!-- Skills Grid -->
+    <!-- Skills Grid: 6 Balanced Cards (3x2 on desktop) -->
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Card -->
+      <!-- 01. Frontend & Modern Web -->
+      <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-indigo-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
+            <div class="flex items-center gap-2.5">
+              <span class="w-3 h-3 rounded bg-indigo-500 inline-block shadow-sm shadow-indigo-500/50" />
+              <h3 class="text-lg font-bold text-white font-mono">
+                {{ currentLang === 'en' ? 'Frontend & Modern Web' : 'ฟรอนต์เอนด์ & เว็บสมัยใหม่' }}
+              </h3>
+            </div>
+            <span class="text-[11px] font-mono text-indigo-400">Full-Stack UI</span>
+          </div>
+
+          <div class="space-y-3.5">
+            <div
+              v-for="skill in profileData.skills.frontend"
+              :key="skill.name"
+              class="p-3 rounded-xl bg-black/40 border border-white/5 hover:border-indigo-500/30 transition-all group"
+            >
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="text-sm font-bold text-white group-hover:text-indigo-400 transition-colors">
+                  {{ skill.name }}
+                </span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/15 text-indigo-300 border border-indigo-500/30 font-medium">
+                  {{ skill.badge[currentLang] }}
+                </span>
+              </div>
+              <p class="text-xs text-slate-400 font-mono leading-relaxed">
+                {{ skill.detail[currentLang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 02. Backend & APIs -->
       <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-cyber-cyan/40 transition-all flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
@@ -52,7 +87,7 @@
         </div>
       </div>
 
-      <!-- Databases -->
+      <!-- 03. Databases -->
       <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-purple-500/40 transition-all flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
@@ -87,7 +122,7 @@
         </div>
       </div>
 
-      <!-- Languages -->
+      <!-- 04. Languages -->
       <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-blue-500/40 transition-all flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
@@ -122,7 +157,42 @@
         </div>
       </div>
 
-      <!-- IoT & AI -->
+      <!-- 05. DevOps & Deployments -->
+      <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-amber-500/40 transition-all flex flex-col justify-between">
+        <div>
+          <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
+            <div class="flex items-center gap-2.5">
+              <span class="w-3 h-3 rounded bg-cyber-amber inline-block shadow-sm shadow-cyber-amber/50" />
+              <h3 class="text-lg font-bold text-white font-mono">
+                {{ currentLang === 'en' ? 'DevOps & Deployments' : 'DevOps & การส่งมอบงาน' }}
+              </h3>
+            </div>
+            <span class="text-[11px] font-mono text-amber-400">Automation</span>
+          </div>
+
+          <div class="space-y-3.5">
+            <div
+              v-for="skill in profileData.skills.devops"
+              :key="skill.name"
+              class="p-3 rounded-xl bg-black/40 border border-white/5 hover:border-amber-500/30 transition-all group"
+            >
+              <div class="flex items-center justify-between gap-2 mb-1">
+                <span class="text-sm font-bold text-white group-hover:text-amber-400 transition-colors">
+                  {{ skill.name }}
+                </span>
+                <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 font-medium">
+                  {{ skill.badge[currentLang] }}
+                </span>
+              </div>
+              <p class="text-xs text-slate-400 font-mono leading-relaxed">
+                {{ skill.detail[currentLang] }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 06. IoT & Machine Vision -->
       <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-emerald-500/40 transition-all flex flex-col justify-between">
         <div>
           <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
@@ -146,41 +216,6 @@
                   {{ skill.name }}
                 </span>
                 <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-emerald-500/15 text-emerald-300 border border-emerald-500/30 font-medium">
-                  {{ skill.badge[currentLang] }}
-                </span>
-              </div>
-              <p class="text-xs text-slate-400 font-mono leading-relaxed">
-                {{ skill.detail[currentLang] }}
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- DevOps & Infrastructure -->
-      <div class="glass-card rounded-2xl p-4 sm:p-6 border border-white/5 hover:border-amber-500/40 transition-all flex flex-col justify-between lg:col-span-2">
-        <div>
-          <div class="flex items-center justify-between gap-2 mb-5 pb-3 border-b border-white/10">
-            <div class="flex items-center gap-2.5">
-              <span class="w-3 h-3 rounded bg-cyber-amber inline-block shadow-sm shadow-cyber-amber/50" />
-              <h3 class="text-lg font-bold text-white font-mono">
-                {{ currentLang === 'en' ? 'DevOps, CI/CD & Deployments' : 'DevOps, ระบบ CI/CD & การส่งมอบงาน' }}
-              </h3>
-            </div>
-            <span class="text-[11px] font-mono text-amber-400">Automation</span>
-          </div>
-
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
-            <div
-              v-for="skill in profileData.skills.devops"
-              :key="skill.name"
-              class="p-3.5 rounded-xl bg-black/40 border border-white/5 hover:border-amber-500/30 transition-all group"
-            >
-              <div class="flex items-center justify-between gap-2 mb-1">
-                <span class="text-sm font-bold text-white group-hover:text-amber-400 transition-colors">
-                  {{ skill.name }}
-                </span>
-                <span class="text-[10px] font-mono px-2 py-0.5 rounded-full bg-amber-500/15 text-amber-300 border border-amber-500/30 font-medium">
                   {{ skill.badge[currentLang] }}
                 </span>
               </div>

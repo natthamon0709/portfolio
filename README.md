@@ -1,6 +1,6 @@
 # Natthamon Kosem - Modern Engineering Portfolio (Nuxt 4)
 
-A modern, high-tech, interactive portfolio website for **Ms. Natthamon Kosem (Nut)** — Computer Engineer & Back-end Developer.
+A modern, high-tech, interactive portfolio website for **Ms. Natthamon Kosem (Nut)** — Computer Engineer & Full-Stack Developer.
 
 Built with **Nuxt 4**, **Tailwind CSS**, and modern web standards. Pre-configured with **Nitro Vercel Preset** for instant serverless deployment.
 
@@ -90,6 +90,7 @@ npx vercel deploy --prebuilt
 
 ## Core Engineering Highlights
 
+- **Frontend & Modern Web**: Vue 3 / Nuxt 4, React, Redux, TypeScript, Tailwind CSS, SSR architecture, responsive glassmorphism and micro-interactions.
 - **Backend & APIs**: High-throughput RESTful APIs, OpenAPI/Swagger specifications, sub-100ms response latency, robust rate-limiting and token lifecycle.
 - **Enterprise Databases**: MySQL & Oracle Database relational schema normalization, B-Tree index tuning, stored procedures.
 - **Industrial Automation & HMI**: Multi-protocol integration with PLC (Modbus TCP 16 DI/16 DO), Keyence barcode scanners (TCP Socket), Cognex In-Sight 2800 Machine Vision (HTTP REST/TCP), and robot arm deterministic state machines.

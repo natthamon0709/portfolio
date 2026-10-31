@@ -26,13 +26,13 @@ export default defineNuxtConfig({
   },
   app: {
     head: {
-      title: 'Ms. Natthamon Kosem | Computer Engineer & Back-end Developer',
+      title: 'Ms. Natthamon Kosem | Computer Engineer & Full-Stack Developer',
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           name: 'description',
-          content: 'Portfolio of Ms. Natthamon Kosem - Computer Engineer, Back-end Developer, RESTful APIs, Database Design, IoT & AI Solutions.'
+          content: 'Portfolio of Ms. Natthamon Kosem - Computer Engineer, Full-Stack Developer (Vue/Nuxt 4, React, TypeScript, Node.js, Laravel, MySQL, Oracle, IoT & CI/CD).'
         },
         { name: 'theme-color', content: '#090d16' }
       ],

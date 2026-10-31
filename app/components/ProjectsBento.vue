@@ -11,8 +11,8 @@
         </h2>
         <p class="text-slate-400 text-sm sm:text-base max-w-xl">
           {{ currentLang === 'en'
-            ? 'Interactive showcase of 15+ engineered systems spanning Industrial HMI, RESTful APIs, IoT telemetry, and AI models.'
-            : 'รวมผลงาน 15 โครงการ ทั้งระบบ Industrial Automation HMI, แบ็กเอนด์ API, โซลูชัน IoT และโมเดล AI' }}
+            ? 'Interactive showcase of engineered systems spanning Full-Stack Web Apps, Industrial HMI, RESTful APIs, IoT telemetry, and AI models.'
+            : 'รวมผลงานโครงงานวิศวกรรม ทั้งเว็บแอปพลิเคชัน Full Stack, ระบบ Industrial Automation HMI, แบ็กเอนด์ API, โซลูชัน IoT และโมเดล AI' }}
         </p>
       </div>
 
@@ -49,13 +49,19 @@
         class="glass-card rounded-2xl p-6 border transition-all duration-200 flex flex-col justify-between relative group cursor-pointer overflow-hidden transform-gpu"
         :class="project.category === 'freelance'
           ? 'border-amber-400/30 hover:border-amber-400/60 shadow-lg shadow-amber-500/5'
-          : 'border-white/5 hover:border-cyber-cyan/40'"
+          : (project.category === 'fullstack'
+            ? 'border-indigo-500/30 hover:border-indigo-500/60 shadow-lg shadow-indigo-500/5'
+            : 'border-white/5 hover:border-cyber-cyan/40')"
         @click="selectedProject = project; openDialog()"
       >
         <!-- Background Neon Highlight -->
         <div
           class="absolute -right-16 -top-16 w-32 h-32 rounded-full blur-2xl transition-all pointer-events-none"
-          :class="project.category === 'freelance' ? 'bg-amber-400/15 group-hover:bg-amber-400/30' : 'bg-cyber-cyan/10 group-hover:bg-cyber-cyan/25'"
+          :class="project.category === 'freelance'
+            ? 'bg-amber-400/15 group-hover:bg-amber-400/30'
+            : (project.category === 'fullstack'
+              ? 'bg-indigo-500/20 group-hover:bg-indigo-500/35'
+              : 'bg-cyber-cyan/10 group-hover:bg-cyber-cyan/25')"
         />
 
         <div>
@@ -65,7 +71,11 @@
               class="text-[11px] font-mono uppercase px-2 py-0.5 rounded-md border"
               :class="getCategoryBadgeClass(project.category)"
             >
-              {{ project.category === 'freelance' ? (currentLang === 'en' ? 'Freelance Task' : 'งานฟรีแลนซ์') : project.category }}
+              {{ project.category === 'freelance'
+                ? (currentLang === 'en' ? 'Freelance Task' : 'งานฟรีแลนซ์')
+                : (project.category === 'fullstack'
+                  ? (currentLang === 'en' ? 'Full Stack' : 'ฟูลสแตก')
+                  : project.category) }}
             </span>
             <span class="text-xs font-mono text-slate-300">{{ project.year }}</span>
           </div>
@@ -73,7 +83,11 @@
           <!-- Title -->
           <h3
             class="text-lg font-bold text-white transition-colors mb-2 line-clamp-2"
-            :class="project.category === 'freelance' ? 'group-hover:text-amber-300' : 'group-hover:text-cyber-cyan'"
+            :class="project.category === 'freelance'
+              ? 'group-hover:text-amber-300'
+              : (project.category === 'fullstack'
+                ? 'group-hover:text-indigo-300'
+                : 'group-hover:text-cyber-cyan')"
           >
             {{ project.title[currentLang] }}
           </h3>
@@ -89,11 +103,19 @@
           <div
             v-if="project.stats"
             class="text-xs font-mono mb-3 flex items-center gap-1.5"
-            :class="project.category === 'freelance' ? 'text-amber-300/90' : 'text-cyber-cyan/90'"
+            :class="project.category === 'freelance'
+              ? 'text-amber-300/90'
+              : (project.category === 'fullstack'
+                ? 'text-indigo-300/90'
+                : 'text-cyber-cyan/90')"
           >
             <span
               class="inline-block w-1.5 h-1.5 rounded-full animate-pulse"
-              :class="project.category === 'freelance' ? 'bg-amber-400' : 'bg-cyber-cyan'"
+              :class="project.category === 'freelance'
+                ? 'bg-amber-400'
+                : (project.category === 'fullstack'
+                  ? 'bg-indigo-400'
+                  : 'bg-cyber-cyan')"
             />
             <span>{{ project.stats }}</span>
           </div>
@@ -270,11 +292,11 @@ const getCardStyle = (id: string) => {
 
 const categories = [
   { id: 'all', label: { en: 'All Systems', th: 'ทั้งหมด' } },
-  { id: 'freelance', label: { en: 'Freelance Tasks', th: 'งานฟรีแลนซ์' } },
+  { id: 'fullstack', label: { en: 'Full Stack', th: 'ฟูลสแตก' } },
   { id: 'backend', label: { en: 'Backend & APIs', th: 'แบ็กเอนด์ & API' } },
+  { id: 'freelance', label: { en: 'Freelance Tasks', th: 'งานฟรีแลนซ์' } },
   { id: 'iot', label: { en: 'IoT & Embedded', th: 'IoT & อุปกรณ์' } },
-  { id: 'ai', label: { en: 'AI & Vision', th: 'AI & วิทัศน์' } },
-  { id: 'fullstack', label: { en: 'Apps & CRM', th: 'แอป & CRM' } }
+  { id: 'ai', label: { en: 'AI & Vision', th: 'AI & วิทัศน์' } }
 ]
 
 const getCount = (catId: string) => {
@@ -289,6 +311,8 @@ const filteredProjects = computed(() => {
 
 const getCategoryBadgeClass = (category: string) => {
   switch (category) {
+    case 'fullstack':
+      return 'bg-indigo-500/20 text-indigo-300 border-indigo-500/40 font-bold'
     case 'freelance':
       return 'bg-amber-400/15 text-amber-300 border-amber-400/40'
     case 'backend':

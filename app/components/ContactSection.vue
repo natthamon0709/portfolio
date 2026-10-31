@@ -16,8 +16,8 @@
 
         <p class="text-slate-300 text-base sm:text-lg leading-relaxed">
           {{ currentLang === 'en'
-            ? 'Whether you are scaling backend microservices, optimizing database systems, or architecting IoT solutions, I am ready to bring engineering excellence to your team.'
-            : 'พร้อมนำทักษะด้านสถาปัตยกรรมแบ็กเอนด์ API, ฐานข้อมูลระดับองค์กร และวิศวกรรมระบบ IoT มาร่วมพัฒนาและยกระดับผลิตภัณฑ์ของคุณ' }}
+            ? 'Whether you are building modern full-stack web applications, scaling resilient backend APIs, optimizing database systems, or deploying IoT solutions, I am ready to bring engineering excellence to your team.'
+            : 'ไม่ว่าคุณกำลังมองหานักพัฒนาสร้างสรรค์เว็บแอปพลิเคชัน Full Stack, วางระบบ RESTful API, ปรับแต่งฐานข้อมูลระดับองค์กร หรือพัฒนาระบบ IoT — พร้อมนำความเชี่ยวชาญทางวิศวกรรมมาร่วมยกระดับผลิตภัณฑ์ของคุณทันที' }}
         </p>
 
         <!-- Interactive Contact Grid -->
