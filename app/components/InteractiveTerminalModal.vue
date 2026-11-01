@@ -210,7 +210,7 @@ Architecture:
 
     case 'experience':
       output = `CAREER TRACE:
-1. Rudy Technology (2022 - Present) | Full-Stack & Back-end Developer
+1. Rudy Technology (2022 - Present) | Full-Stack Developer
    - Full-stack web solutions, RESTful APIs, complex SQL/MVC, GitLab CI/CD, OpenAPI specs.
 2. Freelance Industrial Automation (2023 - 2024) | Industrial Automation & HMI Engineer
    - VBX_APUST dispensing system, PLC Modbus TCP (16 DI/DO), Cognex Vision inspection, Keyence TCP.

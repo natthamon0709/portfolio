@@ -67,8 +67,8 @@
     {
       "company": "Rudy Technology",
       "role": {
-        "en": "Full-Stack & Backend Developer",
-        "th": "Full-Stack & Backend Developer (สถาปัตยกรรมฟูลสแตก & แบ็กเอนด์)"
+        "en": "Full-Stack Developer",
+        "th": "Full-Stack Developer (นักพัฒนาฟูลสแตก)"
       },
       "period": "2022 - Present",
       "location": "Bangkok, Thailand",
@@ -79,22 +79,20 @@
       "color": "#06b6d4",
       "highlights": {
         "en": [
-          "Delivered end-to-end full-stack web solutions, seamlessly connecting modern reactive frontends with high-throughput RESTful backend services",
-          "Engineered high-throughput, mission-critical RESTful APIs serving thousands of concurrent web and mobile clients with sub-100ms latency",
-          "Architected complex relational database schemas in MySQL & Oracle, indexed query bottlenecks, and designed transactional stored procedures under strict MVC design patterns",
-          "Developed custom backend integration bridges and responsive web interfaces connecting enterprise mobile CRM low-code applications with central microservices",
-          "Owned and maintained end-to-end GitLab CI/CD pipelines, automating test execution, linting, Docker packaging, and zero-downtime server deployments",
-          "Authored industry-standard OpenAPI/Swagger specifications, establishing contract-first API development and comprehensive technical documentation for cross-functional teams",
-          "Conducted rigorous API security auditing, rate limiting, token authentication lifecycle, and maintained 99.9% API uptime in production environments"
+          "Built and maintained RESTful APIs connecting web applications and mobile clients with central backend services (tested via Postman)",
+          "Designed relational database schemas in MySQL & Oracle DB, writing optimized SQL queries, stored procedures, and MVC controllers",
+          "Designed UI/UX and developed responsive web interfaces and user dashboards for internal and enterprise workflows",
+          "Integrated low-code mobile CRM applications with backend databases and custom API endpoints",
+          "Configured and managed GitLab CI/CD pipelines for automated testing and server deployments",
+          "Authored clear OpenAPI/Swagger specifications and API documentation to ensure smooth frontend-backend integration"
         ],
         "th": [
-          "พัฒนาและส่งมอบเว็บแอปพลิเคชันแบบ Full Stack เชื่อมต่อหน้าเว็บสมัยใหม่เข้ากับ RESTful API และบริการฝั่งแบ็กเอนด์อย่างไร้รอยต่อ",
-          "ออกแบบและพัฒนา RESTful API แกนกลางระดับ Mission-Critical รองรับการทำงานพร้อมกันของเว็บและโมบายล์แอปพลิเคชัน พร้อมคุม Latency ให้รวดเร็วต่ำกว่า 100ms",
-          "วิเคราะห์และวางโครงสร้างฐานข้อมูลองค์กร (MySQL & Oracle), เขียน Query ซับซ้อน, ทำ Indexing และ Stored Procedure ภายใต้สถาปัตยกรรม MVC ที่ถูกต้องตามหลักวิศวกรรม",
-          "พัฒนาระบบ Integration และ Web Interface เชื่อมต่อระหว่าง Mobile CRM แอปพลิเคชัน Low-Code กับฐานข้อมูลและบริการส่วนกลาง",
-          "วางระบบและดูแล GitLab CI/CD Pipeline อัตโนมัติตั้งแต่การรัน Test, ตรวจสอบ Code Quality ไปจนถึงการ Deploy งานขึ้น Production Server อย่างราบรื่น",
-          "จัดทำเอกสารข้อกำหนดทางเทคนิค API Documentation และ OpenAPI/Swagger Specs เพื่อกำหนดมาตรฐานการทำงานร่วมกันระหว่างทีมฟรอนต์เอนด์และโมบายล์",
-          "ดูแลความปลอดภัยของระบบ API (Authentication, Rate-Limiting, Token Rotation) และรักษาเสถียรภาพระบบให้ทำงานได้ต่อเนื่อง 99.9% Uptime"
+          "พัฒนาและดูแล RESTful API เชื่อมต่อระหว่างเว็บแอปพลิเคชันและโมบายล์ไคลเอนต์เข้ากับระบบเซิร์ฟเวอร์ส่วนกลาง (ทดสอบผ่าน Postman)",
+          "ออกแบบและวางโครงสร้างฐานข้อมูลเชิงสัมพันธ์ MySQL & Oracle DB, เขียน SQL Query ที่ปรับแต่งประสิทธิภาพ, Stored Procedure และ MVC Controller",
+          "ออกแบบ UI/UX และพัฒนาหน้าเว็บแดชบอร์ดที่ตอบสนองผู้ใช้งาน (Responsive Web Interface)",
+          "เชื่อมต่อระบบ Mobile CRM แบบ Low-code เข้ากับฐานข้อมูลและ Custom API ฝั่งแบ็กเอนด์",
+          "วางระบบและดูแล GitLab CI/CD Pipeline สำหรับรันการทดสอบและ Deploy ขึ้นเซิร์ฟเวอร์แบบอัตโนมัติ",
+          "จัดทำเอกสารข้อกำหนดทางเทคนิค API Documentation และ OpenAPI Specs เพื่อความเข้าใจตรงกันระหว่างทีมฟรอนต์เอนด์และแบ็กเอนด์"
         ]
       },
       "skills": ["Vue.js", "TypeScript", "Node.js", "PHP", "Laravel", "Python", "MySQL", "Oracle DB", "RESTful API", "GitLab CI/CD", "Tailwind CSS", "OpenAPI Spec"]
@@ -136,8 +134,8 @@
       "company": "So-at Solution",
       "period": "2021",
       "role": {
-        "en": "Software Engineer Intern (Full-Stack & Web Services)",
-        "th": "วิศวกรซอฟต์แวร์ฝึกงาน (สหกิจศึกษา - ฟูลสแตก & เว็บเซอร์วิส)"
+        "en": "Software Engineer Intern (Co-operative Training)",
+        "th": "วิศวกรซอฟต์แวร์ฝึกงาน (สหกิจศึกษา)"
       },
       "location": "Bangkok, Thailand",
       "type": {
@@ -147,16 +145,16 @@
       "color": "#8b5cf6",
       "highlights": {
         "en": [
-          "Diagnosed and resolved critical web service incidents, identifying root causes across database locks and network timeouts to restore operational integrity",
-          "Implemented complex SQL functions, stored procedures, and backend controllers adhering to strict MVC web standards",
-          "Created exhaustive Postman test suites and collection runners to validate API contracts between staging and production environments",
-          "Collaborated closely with UX designers to translate complex data schemas into intuitive responsive web interfaces for corporate users"
+          "Investigated and resolved web service issues, troubleshooting database locks and request timeouts",
+          "Developed backend MVC controllers and SQL functions for internal web systems",
+          "Created automated Postman test collections to validate API endpoints between staging and production servers",
+          "Collaborated with UI/UX designers to build clean, responsive web pages for enterprise users"
         ],
         "th": [
-          "วิเคราะห์และแก้ไขปัญหาเว็บเซอร์วิสวิกฤต (Web Service Incident Resolution) สืบหาต้นตอ Database Lock และ Timeout แก้ไขจนระบบกลับมาทำงานได้อย่างสมบูรณ์",
-          "เขียนฟังก์ชัน SQL ขั้นสูง, Stored Procedure และเขียน Controller ฝั่งแบ็กเอนด์ตามมาตรฐาน MVC ที่รองรับการขยายตัว",
-          "สร้างชุดทดสอบ Postman Collections อัตโนมัติ เพื่อตรวจสอบความถูกต้องของ API Contract และ Response ทั้งบน Staging และ Production Server",
-          "ร่วมมือกับทีมออกแบบเพื่อแปลงโครงสร้างข้อมูลที่ซับซ้อนให้ออกมาเป็น UI/UX หน้าจอการทำงานของระบบองค์กรที่ใช้งานง่ายและคล่องตัว"
+          "ตรวจสอบและแก้ไขปัญหาเว็บเซอร์วิส ค้นหาสาเหตุ Database Lock และ Request Timeout เพื่อให้ระบบกลับมาใช้งานได้ราบรื่น",
+          "พัฒนาฟังก์ชัน SQL และสถาปัตยกรรม MVC สำหรับระบบเว็บภายในองค์กร",
+          "สร้างชุดทดสอบ Postman Collections ตรวจสอบความถูกต้องของ API ระหว่างฝั่ง Staging และเซิร์ฟเวอร์จริง",
+          "ร่วมมือกับทีม UI/UX เพื่อพัฒนาหน้าเว็บที่ตอบโจทย์การใช้งานจริงและดูสบายตา"
         ]
       },
       "skills": ["PHP", "JavaScript", "SQL", "MVC", "Postman", "Web Services", "UI/UX", "Responsive CSS"]
@@ -176,14 +174,14 @@
       "color": "#10b981",
       "highlights": {
         "en": [
-          "Researched and audited large-scale enterprise database architectures to optimize query execution plans and retrieval throughput",
-          "Developed end-to-end industrial IoT solutions integrating microcontroller hardware, sensor telemetry, and backend data logging for industrial machinery",
-          "Designed ergonomic, high-contrast operational user interfaces specifically adapted for on-site field engineers in industrial factory environments"
+          "Researched enterprise database structures and analyzed query execution plans to improve retrieval performance",
+          "Built an end-to-end IoT prototype combining microcontroller hardware, sensors, and backend data logging",
+          "Designed user-friendly interfaces for on-site field engineers to monitor factory equipment and workflows"
         ],
         "th": [
-          "ศึกษาวิจัยและตรวจสอบระบบฐานข้อมูลระดับองค์กรขนาดใหญ่ของ SCG เพื่อเพิ่มประสิทธิภาพการค้นหาข้อมูลและการทำ Data Indexing",
-          "พัฒนาโซลูชันระบบ IoT ทางอุตสาหกรรมแบบครบวงจร ทั้งการประกอบฮาร์ดแวร์ไมโครคอนโทรลเลอร์, การอ่านค่าเซ็นเซอร์ และการส่งข้อมูลเข้าเซิร์ฟเวอร์",
-          "ออกแบบ User Interface สำหรับวิศวกรและเจ้าหน้าที่หน้างาน (Site Engineers) ให้สามารถอ่านค่าและสั่งการเครื่องจักรได้สะดวกปลอดภัยในสภาพแวดล้อมโรงงานจริง"
+          "ศึกษาวิจัยและสืบค้นโครงสร้างระบบฐานข้อมูลระดับองค์กร วิเคราะห์แผนการสืบค้นข้อมูลเพื่อเพิ่มประสิทธิภาพ",
+          "สร้างต้นแบบระบบ IoT แบบครบวงจร ทั้งการเชื่อมต่อฮาร์ดแวร์ไมโครคอนโทรลเลอร์ เซ็นเซอร์ และการบันทึกข้อมูลเข้าสู่ระบบเซิร์ฟเวอร์",
+          "ออกแบบหน้าจอ UI สำหรับวิศวกรหน้างาน (Site Engineers) เพื่อดูสถานะและตรวจสอบการทำงานของอุปกรณ์ในโรงงาน"
         ]
       },
       "skills": ["Enterprise Database", "Industrial IoT", "Hardware & Firmware", "Telemetry", "UI/UX for Engineers"]
