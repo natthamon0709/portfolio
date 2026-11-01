@@ -181,7 +181,7 @@ const runCommand = (cmdText: string) => {
       break
 
     case 'projects':
-      output = `FEATURED PROJECTS (15 Total):
+      output = `FEATURED PROJECTS (16 Total):
 1. [2025 Full Stack] Nuxt 4 Modern Engineering Portfolio (Vue 3/TS/Tailwind/Nitro)
 2. [2024 Freelance]  VBX_APUST Industrial Dispensing Control HMI (Modbus TCP/Cognex Vision/Robot)
 3. [2023 AI]         AI Visual Similarity Matching Engine (Cosine Vector)

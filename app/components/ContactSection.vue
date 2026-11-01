@@ -7,7 +7,7 @@
 
       <div class="relative z-10 max-w-3xl space-y-6 text-left">
         <div class="inline-flex items-center gap-2 text-xs font-mono text-cyber-cyan uppercase tracking-wider">
-          <span>// 04. CONTACT & OPPORTUNITIES</span>
+          <span>04. CONTACT & OPPORTUNITIES</span>
         </div>
 
         <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight">

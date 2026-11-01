@@ -46,7 +46,7 @@
             href="#projects"
             class="w-full sm:w-auto text-center justify-center px-5 py-2.5 rounded-xl font-mono text-xs sm:text-sm font-semibold bg-gradient-to-r from-cyan-500 to-blue-600 hover:from-cyan-400 hover:to-blue-500 text-white shadow-lg shadow-cyan-500/25 transition-all transform hover:-translate-y-0.5 flex items-center gap-2"
           >
-            <span>{{ currentLang === 'en' ? 'View 15+ Projects' : 'ดูผลงานทั้งหมด (15 โครงการ)' }}</span>
+            <span>{{ currentLang === 'en' ? 'View 16 Projects' : 'ดูผลงานทั้งหมด (16 โครงการ)' }}</span>
             <span aria-hidden="true">&rarr;</span>
           </a>
 

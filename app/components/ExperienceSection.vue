@@ -3,7 +3,7 @@
     <!-- Section Header -->
     <div class="text-left mb-12 space-y-2">
       <div class="inline-flex items-center gap-2 text-xs font-mono text-cyber-cyan uppercase tracking-wider">
-        <span>// 01. CAREER_TRACE & CAPABILITIES</span>
+        <span>01. CAREER_TRACE & CAPABILITIES</span>
       </div>
       <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
         {{ currentLang === 'en' ? 'Full-Stack Experience & Engineering Impact' : 'ประสบการณ์ทำงาน & ศักยภาพฟูลสแตก' }}
@@ -159,7 +159,7 @@
           <!-- Leadership Roles -->
           <div class="mt-5 space-y-2.5">
             <p class="text-xs font-mono uppercase tracking-wider text-amber-400/90 font-bold">
-              // {{ currentLang === 'en' ? 'Leadership & Campus Impact' : 'บทบาทผู้นำและกิจกรรมขับเคลื่อนในมหาวิทยาลัย' }}
+              {{ currentLang === 'en' ? 'Leadership & Campus Impact' : 'บทบาทผู้นำและกิจกรรมขับเคลื่อนในมหาวิทยาลัย' }}
             </p>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
               <li

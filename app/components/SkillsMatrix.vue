@@ -3,7 +3,7 @@
     <!-- Header -->
     <div class="text-left mb-12 space-y-2">
       <div class="inline-flex items-center gap-2 text-xs font-mono text-cyber-cyan uppercase tracking-wider">
-        <span>// 03. TECH_STACK</span>
+        <span>03. TECH_STACK</span>
       </div>
       <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
         {{ currentLang === 'en' ? 'Full-Stack & Engineering Competencies' : 'ทักษะและความเชี่ยวชาญฟูลสแตก & วิศวกรรม' }}

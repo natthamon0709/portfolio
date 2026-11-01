@@ -4,7 +4,7 @@
     <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-6">
       <div class="text-left space-y-2">
         <div class="inline-flex items-center gap-2 text-xs font-mono text-cyber-cyan uppercase tracking-wider">
-          <span>// 02. PORTFOLIO_INDEX</span>
+          <span>02. PORTFOLIO_INDEX</span>
         </div>
         <h2 class="text-3xl sm:text-4xl font-bold text-white tracking-tight">
           {{ currentLang === 'en' ? 'Featured Technical Projects' : 'ผลงานและโครงงานวิศวกรรม' }}
@@ -168,7 +168,7 @@
         <div class="space-y-4">
           <div>
             <h4 class="text-xs font-mono uppercase tracking-wider text-cyber-cyan mb-1.5">
-              // {{ currentLang === 'en' ? 'System Overview' : 'ภาพรวมระบบ' }}
+              {{ currentLang === 'en' ? 'System Overview' : 'ภาพรวมระบบ' }}
             </h4>
             <p class="text-sm sm:text-base text-slate-200 leading-relaxed">
               {{ selectedProject.description[currentLang] }}
@@ -178,7 +178,7 @@
           <!-- Technical Highlights for complex projects (e.g. VBX_APUST) -->
           <div v-if="selectedProject.highlights" class="space-y-2">
             <h4 class="text-xs font-mono uppercase tracking-wider text-cyber-cyan mb-1.5">
-              // {{ currentLang === 'en' ? 'System Architecture & Integration' : 'สถาปัตยกรรมและการควบคุมระบบ (Integration)' }}
+              {{ currentLang === 'en' ? 'System Architecture & Integration' : 'สถาปัตยกรรมและการควบคุมระบบ (Integration)' }}
             </h4>
             <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
               <li
@@ -195,7 +195,7 @@
           <!-- Finite State Machine Workflow Pipeline -->
           <div v-if="selectedProject.workflow" class="space-y-2">
             <h4 class="text-xs font-mono uppercase tracking-wider text-amber-400 mb-1.5">
-              // {{ currentLang === 'en' ? 'Deterministic State Machine Workflow' : 'วงจรการทำงาน Finite State Machine & Workflow' }}
+              {{ currentLang === 'en' ? 'Deterministic State Machine Workflow' : 'วงจรการทำงาน Finite State Machine & Workflow' }}
             </h4>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs font-mono">
               <div
@@ -218,7 +218,7 @@
 
           <div>
             <h4 class="text-xs font-mono uppercase tracking-wider text-slate-400 mb-2">
-              // {{ currentLang === 'en' ? 'Technology Stack' : 'เทคโนโลยีที่ใช้' }}
+              {{ currentLang === 'en' ? 'Technology Stack' : 'เทคโนโลยีที่ใช้' }}
             </h4>
             <div class="flex flex-wrap gap-2">
               <span

@@ -7,7 +7,7 @@
 
       <!-- Status Code Badge -->
       <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyber-cyan/10 border border-cyber-cyan/30 text-xs font-mono text-cyber-cyan mb-6">
-        <span>ERROR_CODE // {{ error?.statusCode || 500 }}</span>
+        <span>ERROR_CODE: {{ error?.statusCode || 500 }}</span>
       </div>
 
       <!-- Heading -->

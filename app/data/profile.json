@@ -42,7 +42,7 @@
       }
     },
     {
-      "value": "15+",
+      "value": "16+",
       "label": {
         "en": "Projects Delivered",
         "th": "โปรเจกต์ที่ส่งมอบ"
@@ -374,6 +374,22 @@
       "tags": ["Full Stack", "React", "Redux", "TypeScript", "React Hook Form", "CSS", "SQL API"],
       "featured": true,
       "stats": "Modern React Architecture"
+    },
+    {
+      "id": "bootstrap-web-solutions",
+      "year": "2020",
+      "category": "fullstack",
+      "title": {
+        "en": "Responsive Web Portals & Layouts (Bootstrap & HTML5)",
+        "th": "ระบบเว็บไซต์องค์กรและหน้าเว็บแบบ Responsive (Bootstrap & HTML/CSS/JS)"
+      },
+      "description": {
+        "en": "Designed and developed responsive corporate web pages, marketing landing portals, and admin layouts using semantic HTML5, CSS3, JavaScript, and Bootstrap.",
+        "th": "พัฒนาเว็บไซต์องค์กร หน้าเว็บประชาสัมพันธ์ และส่วนติดต่อผู้ใช้ด้วย HTML5, CSS3, JavaScript และ Bootstrap รองรับการแสดงผลทุกขนาดหน้าจอ"
+      },
+      "tags": ["Full Stack", "HTML5", "CSS3", "JavaScript", "Bootstrap", "Responsive Layout"],
+      "featured": false,
+      "stats": "Multi-Device Responsive Web"
     },
     {
       "id": "smarthome-cloud-hub",
